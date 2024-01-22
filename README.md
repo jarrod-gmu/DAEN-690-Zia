@@ -1,4 +1,13 @@
 # DAEN-690-Zia
+TEAM MEMBERS
+Jarrod Clark
+Ryan Wadsworth
+Sudha Jain
+Sean Coombs
+Jason Myslewski
+
+INSTRUCTOR 
+Rajesh Aggarwal
 
 PROBLEM DESCRIPTION
 Since 2015, the United Nations rallies governments, private sector and civil society around 17 Sustainable Development Goals (SDGs) for a better future, in a roadmap to alleviate health, social, political and economic problems.
