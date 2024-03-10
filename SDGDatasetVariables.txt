@@ -1,0 +1,2729 @@
+Field: "ID" 
+Count of Unique Values: 2668219
+[   9687    9688    9689 ... 1231449 1231450 1231451]
+Number of records for each "ID" : 
+<bound method Series.sort_values of ID
+9687       1
+340179     1
+340175     1
+340163     1
+340164     1
+          ..
+2025510    1
+2025511    1
+2025512    1
+2025513    1
+1231451    1
+Name: count, Length: 2668219, dtype: int64> 
+
+Field: "Goal" 
+Count of Unique Values: 17
+[ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17]
+Number of records for each "Goal" : 
+<bound method Series.sort_values of Goal
+8     399193
+12    325706
+17    325585
+4     309154
+3     242846
+15    155151
+6     153676
+2     135472
+16    123550
+1     112678
+7      92940
+10     86975
+9      64334
+11     53141
+5      37806
+14     28874
+13     21138
+Name: count, dtype: int64> 
+
+Field: "Target" 
+Count of Unique Values: 165
+['1.1' '1.2' '1.3' '1.4' '1.5' '1.a' '2.1' '2.2' '2.3' '2.4' '2.5' '2.a'
+ '2.b' '2.c' '3.1' '3.2' '3.3' '3.4' '3.5' '3.6' '3.7' '3.8' '3.9' '3.a'
+ '3.b' '3.c' '3.d' '4.1' '4.2' '4.3' '4.4' '4.5' '4.6' '4.7' '4.a' '4.b'
+ '4.c' '5.1' '5.2' '5.3' '5.4' '5.5' '5.6' '5.a' '5.b' '5.c' '6.1' '6.2'
+ '6.3' '6.4' '6.5' '6.6' '6.a' '6.b' '7.1' '7.2' '7.3' '7.a' '7.b' '8.1'
+ '8.10' '8.2' '8.3' '8.4' '8.5' '8.6' '8.7' '8.8' '8.9' '8.a' '8.b' '9.1'
+ '9.2' '9.3' '9.4' '9.5' '9.a' '9.b' '9.c' '10.1' '10.2' '10.3' '10.4'
+ '10.5' '10.6' '10.7' '10.a' '10.b' '10.c' '11.1' '11.2' '11.3' '11.4'
+ '11.5' '11.6' '11.7' '11.a' '11.b' '12.1' '12.2' '12.3' '12.4' '12.5'
+ '12.6' '12.7' '12.8' '12.a' '12.b' '12.c' '13.1' '13.2' '13.3' '13.a'
+ '13.b' '14.1' '14.2' '14.3' '14.4' '14.5' '14.6' '14.7' '14.a' '14.b'
+ '14.c' '15.1' '15.2' '15.3' '15.4' '15.5' '15.6' '15.8' '15.9' '15.a'
+ '15.b' '16.1' '16.10' '16.2' '16.3' '16.4' '16.5' '16.6' '16.7' '16.8'
+ '16.9' '16.a' '16.b' '17.1' '17.10' '17.11' '17.12' '17.13' '17.14'
+ '17.15' '17.16' '17.17' '17.18' '17.19' '17.2' '17.3' '17.4' '17.5'
+ '17.6' '17.7' '17.8' '17.9']
+Number of records for each "Target" : 
+<bound method Series.sort_values of Target
+12.2     252073
+8.4      252073
+17.13    150388
+4.1      141445
+15.4      99226
+          ...  
+16.4         90
+17.14        49
+14.2         33
+13.b         24
+17.5         10
+Name: count, Length: 165, dtype: int64> 
+
+Field: "Indicator" 
+Count of Unique Values: 242
+['1.1.1' '1.2.1' '1.2.2' '1.3.1' '1.4.1' '1.4.2' '1.5.2' '1.5.1' '1.5.3'
+ '1.5.4' '1.a.2' '1.a.1' '2.1.1' '2.1.2' '2.2.1' '2.2.2' '2.2.3' '2.3.1'
+ '2.3.2' '2.4.1' '2.5.1' '2.5.2' '2.a.1' '2.a.2' '2.b.1' '2.c.1' '3.1.2'
+ '3.1.1' '3.2.1' '3.2.2' '3.3.1' '3.3.3' '3.3.5' '3.3.2' '3.3.4' '3.4.1'
+ '3.4.2' '3.5.2' '3.5.1' '3.6.1' '3.7.1' '3.7.2' '3.8.2' '3.8.1' '3.9.1'
+ '3.9.3' '3.9.2' '3.a.1' '3.b.2' '3.b.1' '3.b.3' '3.c.1' '3.d.1' '3.d.2'
+ '4.1.1' '4.1.2' '4.2.2' '4.2.1' '4.3.1' '4.4.1' '4.5.1' '4.6.1' '4.7.1'
+ '4.a.1' '4.b.1' '4.c.1' '5.1.1' '5.2.1' '5.3.1' '5.3.2' '5.4.1' '5.5.2'
+ '5.5.1' '5.6.1' '5.6.2' '5.a.1' '5.a.2' '5.b.1' '5.c.1' '6.1.1' '6.2.1'
+ '6.3.2' '6.3.1' '6.4.2' '6.4.1' '6.5.2' '6.5.1' '6.6.1' '6.a.1' '6.b.1'
+ '7.1.2' '7.1.1' '7.2.1' '7.3.1' '7.a.1' '7.b.1' '8.1.1' '8.10.1' '8.10.2'
+ '8.2.1' '8.3.1' '8.4.1' '8.4.2' '8.5.2' '8.5.1' '8.6.1' '8.7.1' '8.8.1'
+ '8.8.2' '8.9.1' '8.a.1' '8.b.1' '9.1.2' '9.1.1' '9.2.1' '9.2.2' '9.3.1'
+ '9.3.2' '9.4.1' '9.5.2' '9.5.1' '9.a.1' '9.b.1' '9.c.1' '10.1.1' '10.2.1'
+ '10.3.1' '10.4.1' '10.4.2' '10.5.1' '10.6.1' '10.7.2' '10.7.4' '10.7.3'
+ '10.7.1' '10.a.1' '10.b.1' '10.c.1' '11.1.1' '11.2.1' '11.3.1' '11.4.1'
+ '11.5.2' '11.5.1' '11.5.3' '11.6.2' '11.6.1' '11.7.1' '11.7.2' '11.a.1'
+ '11.b.1' '11.b.2' '12.1.1' '12.2.1' '12.2.2' '12.3.1' '12.4.1' '12.4.2'
+ '12.5.1' '12.6.1' '12.7.1' '12.8.1' '12.a.1' '12.b.1' '12.c.1' '13.1.1'
+ '13.1.2' '13.1.3' '13.2.2' '13.2.1' '13.3.1' '13.a.1' '13.b.1' '14.1.1'
+ '14.2.1' '14.3.1' '14.4.1' '14.5.1' '14.6.1' '14.7.1' '14.a.1' '14.b.1'
+ '14.c.1' '15.1.1' '15.1.2' '15.2.1' '15.3.1' '15.4.2' '15.4.1' '15.5.1'
+ '15.6.1' '15.8.1' '15.9.1' '15.a.1' '15.b.1' '16.1.1' '16.1.3' '16.1.2'
+ '16.1.4' '16.10.1' '16.10.2' '16.2.3' '16.2.1' '16.2.2' '16.3.2' '16.3.1'
+ '16.3.3' '16.4.2' '16.4.1' '16.5.2' '16.5.1' '16.6.1' '16.6.2' '16.7.1'
+ '16.7.2' '16.8.1' '16.9.1' '16.a.1' '16.b.1' '17.1.1' '17.1.2' '17.10.1'
+ '17.11.1' '17.12.1' '17.13.1' '17.14.1' '17.15.1' '17.16.1' '17.17.1'
+ '17.18.3' '17.18.2' '17.19.2' '17.19.1' '17.2.1' '17.3.2' '17.3.1'
+ '17.4.1' '17.5.1' '17.6.1' '17.7.1' '17.8.1' '17.9.1']
+Number of records for each "Indicator" : 
+<bound method Series.sort_values of Indicator
+12.2.2     252013
+8.4.2      252013
+17.13.1    150388
+4.1.2      136527
+15.4.2      93177
+            ...  
+13.b.1         24
+13.2.1         18
+16.3.3         15
+17.5.1         10
+10.7.1          6
+Name: count, Length: 242, dtype: int64> 
+
+Field: "ReleaseStatus" 
+Count of Unique Values: 1
+['Published']
+Number of records for each "ReleaseStatus" : 
+<bound method Series.sort_values of ReleaseStatus
+Published    2668219
+Name: count, dtype: int64> 
+
+Field: "ReleaseName" 
+Count of Unique Values: 1
+['2023.Q3.G.02']
+Number of records for each "ReleaseName" : 
+<bound method Series.sort_values of ReleaseName
+2023.Q3.G.02    2668219
+Name: count, dtype: int64> 
+
+Field: "SeriesID" 
+Count of Unique Values: 662
+[1844 1956 1957 3203 3204 3205 3206 3345 1717 1718 1719 1721 1838 1840
+ 1841 1842 1951 1952 1953 1955 3065 3066 3069 3070 3255 1742 1865 1978
+ 1980 2936 2937 2941 2943 2944 2947 2950 2952 2953 2954 2955 2956 2957
+ 2962 2963 3056 3226 2932 3245 3246 3247 1857 2828 2829 2831 2832 3025
+ 2871 2872 2873 2874 2877 2878 3220 3221 3222 3053 3054 3287 3288 3071
+ 4448 4449 4450 4451 4452 4453 4454 4455 4456 4457 4458 1535 1536 1553
+ 1767 3062 4413 4447 4464 1751 1758 3030 3031 1752 2827 3027 3244 1835
+ 2870 1594 1595 1596 1706 1832 1942 1599 1710 1950 2875 2997 1593 1836
+ 1837 2868 1704 3227 3228 1604 1943 1970 2906 2907 2930 1598 1603 1712
+ 1831 4402 1601 1520 1759 2933 2934 2935 3178 3248 2869 3197 2975 3249
+ 3250 3121 3210 1572 1798 1563 2852 1912 2856 2908 2910 2915 3122 3123
+ 3124 3125 3126 3211 3212 3213 3330 3331 2905 3347 3348 3349 3350 2846
+ 2847 2848 2849 2850 2851 2916 1522 2862 3036 3037 3038 3039 1744 1735
+ 1948 1971 1722 1846 1958 1559 1560 1692 1693 1919 3055 4429 4430 1707
+ 3022 3023 3024 3158 3159 3162 3163 3164 3165 3166 3167 3168 3169 3170
+ 3171 3172 3173 3174 3175 3176 3177 3075 3193 3229 1897 3057 1597 1709
+ 1834 1947 2904 2976 2977 2978 3008 3310 3311 3312 1545 3026 2920 2921
+ 2922 2972 2974 3383 3384 3385 3386 2989 2991 3252 3253 3258 3259 3260
+ 3261 3262 3263 3264 3265 3266 3267 3268 3269 3270 3271 3272 3278 1524
+ 2924 2925 2926 2927 1527 1879 1880 1635 3061 3223 1902 1557 1558 1666
+ 4411 4412 1965 3224 4431 1532 1636 1637 1762 1763 1883 1732 2876 3035
+ 4432 4433 1969 4434 2917 2918 1728 1964 3156 3152 1523 1760 1761 1877
+ 3080 2841 2842 3081 3149 3150 1562 1731 1793 2973 4435 2928 2929 1528
+ 1529 1881 1667 1668 1521 1901 1786 1787 1788 1606 3216 3225 1854 3032
+ 3012 3013 3014 3015 3016 3017 3018 2866 2867 3138 3230 3242 3243 3400
+ 1621 1525 1878 2919 1845 3082 3083 3387 1882 3134 3086 3374 3375 3376
+ 3379 3382 2964 2965 2966 2967 2968 2969 2970 2971 1530 2834 3088 3103
+ 3251 3004 3007 3353 3282 3283 4403 4404 1694 1815 1920 1921 3143 3179
+ 3180 3184 3185 3186 3187 3188 3189 3291 3292 3293 3294 3295 3296 3334
+ 3343 3344 4436 4437 4438 3181 3182 3183 3290 3297 3108 3109 3351 3352
+ 3155 3198 3199 3286 3388 3389 3254 3256 3321 3322 3323 3324 3325 3326
+ 3327 3316 3317 3318 3319 3320 3338 3339 3340 3341 3342 3231 3232 3280
+ 3281 3390 3391 3392 3393 3394 3395 4465 4466 4467 3235 3195 1539 2999
+ 3034 3090 2998 3033 3298 3299 1630 1749 1867 2837 2839 1629 1748 1868
+ 1869 1870 3058 1548 1778 1890 2838 4440 4441 2840 1534 1638 1764 1765
+ 1884 3139 3140 3328 3329 3335 3336 3337 3190 3191 1519 1754 1743 1981
+ 3040 3041 3042 3208 4401 4405 4406 4407 4408 4409 1626 1816 3215 1745
+ 1983 3048 3049 3050 3051 3052 4442 4443 4444 4445 4446 1625 3044 3045
+ 3046 4424 3093 3113 3114 1669 3047 3003 4416 4417 4418 4419 4420 4421
+ 4422 4423 3085 3095 3200 3201 3202 3217 3218 3219 3300 3301 3302 3303
+ 3304 3305 3401 3402 3403 3404 3405 4414 4415 1824 1585 1586 1822 1823
+ 1931 1932 3063 3064 3136 3127 3128 1622 1739 1740 1976 3141 3142 3354
+ 3355 3356 3357 3358 3359 3360 3361 3362 3363 3364 3365 3366 3367 3368
+ 3369 3370 3371 3372 3373 3279 1588 1589 1701 1702 1933 1934 3001 3002
+ 3308 3309 3240 3257 1592 1827 1828 1829 1830 1938 1590 1591 1825 1826
+ 1935 1936 1937 1634 1755 1756 1757 1873 1874 1875 1876 3059 3060 1753
+ 3207 4459 4460 4461 4462 4463 1526 4468 2844 2845 3396 3397 3398 3399
+ 4410 4439 1792 1633]
+Number of records for each "SeriesID" : 
+<bound method Series.sort_values of SeriesID
+1636    169174
+1883    167712
+1762    167140
+3210    136527
+1890     43065
+         ...  
+3340         2
+3326         2
+3323         1
+3324         1
+3327         1
+Name: count, Length: 662, dtype: int64> 
+
+Field: "SeriesCode" 
+Count of Unique Values: 662
+['SI_POV_DAY1' 'SI_POV_EMP1' 'SI_POV_NAHC' 'SD_MDP_MUHC' 'SD_MDP_ANDI'
+ 'SD_MDP_MUHHC' 'SD_MDP_CSMP' 'SD_MDP_ANDIHH' 'SI_COV_MATNL' 'SI_COV_POOR'
+ 'SI_COV_SOCAST' 'SI_COV_SOCINS' 'SI_COV_CHLD' 'SI_COV_UEMP' 'SI_COV_VULN'
+ 'SI_COV_WKINJRY' 'SI_COV_BENFTS' 'SI_COV_DISAB' 'SI_COV_LMKT'
+ 'SI_COV_PENSN' 'SP_ACS_BSRVH2O' 'SP_ACS_BSRVSAN' 'SP_LGL_LNDDOC'
+ 'SP_LGL_LNDSEC' 'SP_LGL_LNDSTR' 'VC_DSR_GDPLS' 'VC_DSR_MISS'
+ 'VC_DSR_AFFCT' 'VC_DSR_MORT' 'VC_DSR_MTMP' 'VC_DSR_MMHN' 'VC_DSR_DAFF'
+ 'VC_DSR_IJILN' 'VC_DSR_PDAN' 'VC_DSR_PDYN' 'VC_DSR_PDLN' 'SG_DSR_LGRGSR'
+ 'SG_DSR_SILS' 'SG_DSR_SILN' 'SG_GOV_LOGV' 'VC_DSR_LSGP' 'VC_DSR_AGLH'
+ 'VC_DSR_CILN' 'VC_DSR_CHLN' 'VC_DSR_DDPA' 'SG_DSR_SFDRR' 'SD_XPD_ESED'
+ 'DC_ODA_POVLG' 'DC_ODA_POVDLG' 'DC_ODA_POVG' 'SN_ITK_DEFC'
+ 'AG_PRD_FIESMS' 'AG_PRD_FIESMSN' 'AG_PRD_FIESS' 'AG_PRD_FIESSN'
+ 'SN_ITK_DEFCN' 'SH_STA_STNT' 'SH_STA_STNTN' 'SH_STA_WAST' 'SH_STA_WASTN'
+ 'SN_STA_OVWGT' 'SN_STA_OVWGTN' 'SH_STA_ANEM' 'SH_STA_ANEM_PREG'
+ 'SH_STA_ANEM_NPRG' 'PD_AGR_SSFP' 'SI_AGR_SSFP' 'PD_AGR_LSFP'
+ 'SI_AGR_LSFP' 'AG_LND_SUST' 'AG_LND_FOVH' 'AG_LND_NFI' 'AG_LND_RMM'
+ 'AG_LND_SDGRD' 'AG_LND_H2OAVAIL' 'AG_LND_FERTMG' 'AG_LND_PSTCDSMG'
+ 'AG_LND_AGRBIO' 'AG_LND_AGRWAG' 'AG_LND_FIES' 'AG_LND_LNDSTR'
+ 'ER_GRF_ANIMKPT' 'ER_GRF_ANIMRCNTN' 'ER_UNK_LBREDN' 'ER_GRF_PLNTSTOR'
+ 'ER_RSK_LBREDS' 'ER_GRF_ANIMRCNTN_TRB' 'ER_NOEX_LBREDN'
+ 'ER_GRF_ANIMKPT_TRB' 'AG_PRD_ORTIND' 'DC_TOF_AGRL' 'AG_PRD_AGVAS'
+ 'AG_XPD_AGSGB' 'AG_PRD_XSUBDY' 'AG_FPA_COMM' 'AG_FPA_CFPI' 'AG_FPA_HMFP'
+ 'SH_STA_BRTC' 'SH_STA_MORT' 'SH_DYN_IMRTN' 'SH_DYN_MORT' 'SH_DYN_NMRTN'
+ 'SH_DYN_IMRT' 'SH_DYN_NMRT' 'SH_DYN_MORTN' 'SH_HIV_INCD' 'SH_STA_MALR'
+ 'SH_TRP_INTVN' 'SH_TBS_INCD' 'SH_HAP_HBSAG' 'SH_DTH_NCOM' 'SH_STA_SCIDE'
+ 'SH_STA_SCIDEN' 'SH_DTH_NCD' 'SH_ALC_CONSPT' 'SH_SUD_ALCOL'
+ 'SH_SUD_TREAT' 'SH_STA_TRAF' 'SH_FPL_MTMM' 'SP_DYN_ADKL' 'SH_XPD_EARN25'
+ 'SH_XPD_EARN10' 'SH_ACS_UNHC' 'SH_HAP_ASMORT' 'SH_STA_ASAIRP'
+ 'SH_STA_POISN' 'SH_AAP_ASMORT' 'SH_STA_WASHARI' 'SH_PRV_SMOK'
+ 'DC_TOF_HLTHNT' 'DC_TOF_HLTHL' 'SH_ACS_DTP3' 'SH_ACS_MCV2' 'SH_ACS_PCV3'
+ 'SH_ACS_HPV' 'SH_HLF_EMED' 'SH_MED_DEN' 'SH_MED_HWRKDIS' 'SH_IHR_CAPS'
+ 'SH_BLD_MRSA' 'SH_BLD_ECOLI' 'SE_TOT_PRFL' 'SE_TOT_CPLR' 'SE_PRE_PARTN'
+ 'SE_DEV_ONTRK' 'SE_ADT_EDUCTRN' 'SE_ADT_ACTS' 'SE_GPI_PTNPRE'
+ 'SE_GPI_TCAQ' 'SE_GPI_PART' 'SE_GPI_ICTS' 'SE_IMP_FPOF' 'SE_NAP_ACHI'
+ 'SE_LGP_ACHI' 'SE_TOT_GPI' 'SE_TOT_SESPI' 'SE_TOT_RUPI' 'SE_ALP_CPLR'
+ 'SE_AWP_CPRA' 'SE_AGP_CPRA' 'SE_TOT_GPI_FS' 'SE_TOT_SESPI_FS'
+ 'SE_ADT_FUNS' 'SE_GCEDESD_NEP' 'SE_GCEDESD_CUR' 'SE_GCEDESD_TED'
+ 'SE_GCEDESD_SAS' 'SE_ACS_CMPTR' 'SE_ACS_H2O' 'SE_ACS_ELECT'
+ 'SE_ACC_HNDWSH' 'SE_ACS_INTNT' 'SE_ACS_SANIT' 'SE_INF_DSBL'
+ 'DC_TOF_SCHIPSL' 'SE_TRA_GRDL' 'SG_LGL_GENEQLFP' 'SG_LGL_GENEQVAW'
+ 'SG_LGL_GENEQEMP' 'SG_LGL_GENEQMAR' 'VC_VAW_MARR' 'SP_DYN_MRBF18'
+ 'SH_STA_FGMS' 'SP_DYN_MRBF15' 'SL_DOM_TSPDCW' 'SL_DOM_TSPDDC'
+ 'SL_DOM_TSPD' 'IC_GEN_MGTL' 'IC_GEN_MGTN' 'SG_GEN_PARLN' 'SG_GEN_PARLNT'
+ 'SG_GEN_PARL' 'SG_GEN_LOCGELS' 'IC_GEN_MGTL_19ICLS' 'IC_GEN_MGTN_19ICLS'
+ 'SH_FPL_INFM' 'SH_FPL_INFMSR' 'SH_FPL_INFMCU' 'SH_FPL_INFMRH'
+ 'SH_LGR_ACSRHE' 'SH_LGR_ACSRHEC1' 'SH_LGR_ACSRHEC10' 'SH_LGR_ACSRHEC11'
+ 'SH_LGR_ACSRHEC12' 'SH_LGR_ACSRHEC13' 'SH_LGR_ACSRHEC2' 'SH_LGR_ACSRHEC3'
+ 'SH_LGR_ACSRHEC4' 'SH_LGR_ACSRHEC5' 'SH_LGR_ACSRHEC6' 'SH_LGR_ACSRHEC7'
+ 'SH_LGR_ACSRHEC8' 'SH_LGR_ACSRHEC9' 'SH_LGR_ACSRHES1' 'SH_LGR_ACSRHES2'
+ 'SH_LGR_ACSRHES3' 'SH_LGR_ACSRHES4' 'SP_LGL_LNDAGSEC' 'SP_GNP_WNOWNS'
+ 'SG_LGL_LNDFEMOD' 'IT_MOB_OWN' 'SG_GEN_EQPWN' 'SH_H2O_SAFE'
+ 'SH_SAN_HNDWSH' 'SH_SAN_SAFE' 'SH_SAN_DEFECT' 'EN_H2O_OPAMBQ'
+ 'EN_H2O_RVAMBQ' 'EN_H2O_GRAMBQ' 'EN_H2O_WBAMBQ' 'EN_WWT_WWDS'
+ 'EN_WWT_GEN' 'EN_WWT_TREAT' 'EN_WWT_TREATR' 'ER_H2O_STRESS'
+ 'ER_H2O_WUEYST' 'EG_TBA_H2CO' 'EG_TBA_H2COAQ' 'EG_TBA_H2CORL'
+ 'ER_H2O_IWRMD' 'ER_H2O_IWRMP' 'ER_H2O_IWRMD_EE' 'ER_H2O_IWRMD_IP'
+ 'ER_H2O_IWRMD_MI' 'ER_H2O_IWRMD_FI' 'EN_WBE_NDQTGRW' 'EN_WBE_NDQTRVR'
+ 'EN_WBE_HMWTL' 'EN_WBE_INWTL' 'EN_LKRV_PWAN' 'EN_LKRV_PWAP'
+ 'EN_LKRV_SWAN' 'EN_LKRV_SWAP' 'EN_LKRV_PWAC' 'EN_LKRV_SWAC'
+ 'EN_RSRV_MNWAN' 'EN_RSRV_MNWAP' 'EN_RSRV_MXWAN' 'EN_RSRV_MXWAP'
+ 'EN_WBE_WTLN' 'EN_WBE_WTLP' 'EN_LKW_QLTRB' 'EN_LKW_QLTRST' 'EN_WBE_MANGN'
+ 'EN_WBE_MANGC' 'DC_TOF_WASHL' 'ER_H2O_RURP' 'ER_H2O_PRDU' 'ER_WAT_PART'
+ 'ER_WAT_PRDU' 'EG_EGY_CLEAN' 'EG_ACS_ELEC' 'EG_FEC_RNEW' 'EG_EGY_PRIM'
+ 'EG_IFF_RANDN' 'EG_EGY_RNEW' 'NY_GDP_PCAP' 'FB_ATM_TOTL' 'FB_BNK_ACCSS'
+ 'FB_CBK_BRCH' 'FB_BNK_ACCSS_ILF' 'FB_BNK_ACCSS_OLF' 'SL_EMP_PCAP'
+ 'SL_ISV_IFEM' 'SL_ISV_IFEM_19ICLS' 'EN_MAT_FTPRPG' 'EN_MAT_DOMCMPT'
+ 'EN_MAT_FTPRPC' 'EN_MAT_DOMCMPG' 'EN_MAT_FTPRTN' 'EN_MAT_DOMCMPC'
+ 'SL_TLF_UEM' 'SL_EMP_EARN' 'SL_TLF_UEMDIS' 'SL_TLF_UEM_19ICLS'
+ 'SL_TLF_UEMDIS_19ICLS' 'SL_TLF_NEET' 'SL_TLF_NEET_19ICLS' 'SL_TLF_CHLDEC'
+ 'SL_TLF_CHLDEA' 'SL_EMP_FTLINJUR' 'SL_EMP_INJUR' 'SL_LBR_NTLCPL'
+ 'ST_GDP_ZS' 'DC_TOF_TRDCMDL' 'DC_TOF_TRDDBMDL' 'DC_TOF_TRDDBML'
+ 'DC_TOF_TRDCML' 'SL_CPA_YEMP' 'IS_RDP_FRGVOL' 'IS_RDP_PFVOL'
+ 'SP_ROD_R2KM' 'IS_RDP_PORFVOL' 'IS_RDP_LULFRG' 'NV_IND_MANFPC'
+ 'SL_TLF_MANF' 'NV_IND_MANF' 'NV_IND_MANF_CD' 'SL_TLF_MANF_19ICLS'
+ 'NV_IND_SSIS' 'FC_ACC_SSID' 'EN_ATM_CO2' 'EN_ATM_CO2MVA' 'EN_ATM_CO2GDP'
+ 'GB_POP_SCIERD' 'GB_XPD_RSDV' 'DC_TOF_INFRAL' 'NV_IND_TECH'
+ 'IT_MOB_2GNTWK' 'IT_MOB_3GNTWK' 'IT_MOB_4GNTWK' 'SI_HEI_TOTL'
+ 'SI_POV_50MI' 'VC_VOV_GDSD' 'SL_EMP_GTOTL' 'SI_DST_FISP' 'FI_FSI_FSANL'
+ 'FI_FSI_FSERA' 'FI_FSI_FSKA' 'FI_FSI_FSKNL' 'FI_FSI_FSKRTC' 'FI_FSI_FSLS'
+ 'FI_FSI_FSSNO' 'SG_INT_MBRDEV' 'SG_INT_VRTDEV' 'SG_CPA_MIGRP'
+ 'SG_CPA_MIGRS' 'SM_POP_REFG_OR' 'SM_DTH_MIGR' 'SL_EMP_RCOST_MO'
+ 'TM_TRF_ZERO' 'DC_TRF_TOTDL' 'DC_TRF_TOTL' 'DC_TRF_TFDV' 'SI_RMT_COST'
+ 'SI_RMT_COST_BC' 'SI_RMT_COST_SC' 'SI_RMT_COST_SND' 'EN_LND_SLUM'
+ 'SP_TRN_PUBL' 'EN_LND_CNSPOP' 'GB_XPD_CULNAT_PB' 'GB_XPD_CULNAT_PV'
+ 'GB_XPD_CULNAT_PBPV' 'GB_XPD_CUL_PBPV' 'GB_XPD_NAT_PBPV' 'VC_DSR_CDAN'
+ 'VC_DSR_HFDN' 'VC_DSR_EFDN' 'VC_DSR_CDYN' 'VC_DSR_BSDN' 'VC_DSR_ESDN'
+ 'VC_DSR_HSDN' 'VC_DSR_OBDN' 'EN_ATM_PM25' 'EN_REF_WASCOL' 'EN_URB_OPENSP'
+ 'VC_VOH_SXPH' 'SD_CPA_UPRDP' 'SG_SCP_CNTRY' 'SG_SCP_POLINS'
+ 'SG_SCP_TOTLN' 'AG_FOOD_WST_PC' 'AG_FOOD_WST' 'AG_FLS_INDEX' 'AG_FLS_PCT'
+ 'SG_HAZ_CMRMNTRL' 'SG_HAZ_CMRROTDAM' 'SG_HAZ_CMRBASEL' 'SG_HAZ_CMRSTHOLM'
+ 'SG_HAZ_CMRMNMT' 'EN_EWT_GENV' 'EN_EWT_GENPCAP' 'EN_HAZ_GENV'
+ 'EN_HAZ_PCAP' 'EN_HAZ_GENGDP' 'EN_HAZ_TREATV' 'EN_HAZ_TRTDISR'
+ 'EN_HAZ_TRTDISV' 'EN_MWT_COLLV' 'EN_MWT_TREATR' 'EN_MWT_GENV'
+ 'EN_EWT_COLLV' 'EN_EWT_COLLPCAP' 'EN_EWT_COLLR' 'EN_TWT_GENV'
+ 'EN_HAZ_EXP' 'EN_HAZ_IMP' 'EN_MWT_TREATV' 'EN_MWT_IMP' 'EN_MWT_EXP'
+ 'EN_EWT_RCYV' 'EN_EWT_RCYR' 'EN_EWT_RCYPCAP' 'EN_MWT_RCYR' 'EN_MWT_RCYV'
+ 'EN_SCP_FRMN' 'SG_SCP_PROCN' 'SG_SCP_PROCN_HS' 'SG_SCP_PROCN_LS'
+ 'ST_EEV_STDACCT' 'ST_EEV_ACCSEEA' 'ST_EEV_ACCTSA' 'ER_FFS_CMPT_GDP'
+ 'ER_FFS_CMPT_CD' 'ER_FFS_CMPT_PC_CD' 'EN_ATM_GHGT_AIP' 'EN_ATM_GHGT_NAIP'
+ 'EN_NACOM_NAIP' 'EN_BIUREP_NAIP' 'EN_NACOM_AIP' 'EN_BIUREP_AIP'
+ 'EN_ADAP_COM' 'EN_NAD_CONTR' 'EN_NAA_PLAN' 'DC_FIN_CLIMB' 'DC_FIN_CLIMM'
+ 'DC_FIN_CLIMT' 'DC_FIN_GEN' 'DC_FIN_TOT' 'EN_NACOM_NAIP_DV'
+ 'EN_BIUREP_NAIP_DV' 'EN_ADAP_COM_DV' 'EN_NAD_CONTR_DV' 'EN_NAA_PLAN_DV'
+ 'EN_MAR_COEUPO' 'EN_MAR_CHLDEV' 'EN_MAR_CHLANM' 'EN_MAR_BEALITSQ'
+ 'EN_MAR_PLASDD' 'EN_MAR_BEALIT_BP' 'EN_MAR_BEALIT_BV' 'EN_MAR_BEALIT_OP'
+ 'EN_MAR_BEALIT_OV' 'EN_MAR_BEALIT_EXP' 'EN_MAR_DSI' 'EN_MAR_TP'
+ 'EN_MAR_TN' 'EN_SCP_ECSYBA' 'ER_OAW_MNACD' 'ER_H2O_FWTL' 'ER_MRN_MPA'
+ 'ER_REG_UNFCIM' 'EN_SCP_FSHGDP' 'ER_RDE_OSEX' 'ER_REG_SSFRAR'
+ 'ER_UNCLOS_RATACC' 'ER_UNCLOS_IMPLE' 'AG_LND_TOTL' 'AG_LND_FRSTN'
+ 'AG_LND_FRST' 'ER_PTD_FRHWTR' 'ER_PTD_TERR' 'AG_LND_FRSTBIOPHA'
+ 'AG_LND_FRSTCERT' 'AG_LND_FRSTCHG' 'AG_LND_FRSTMGT' 'AG_LND_FRSTPRCT'
+ 'AG_LND_DGRD' 'ER_MTN_GRNCVI' 'ER_MTN_TOTL' 'ER_MTN_GRNCOV' 'ER_PTD_MTN'
+ 'ER_MTN_DGRDP' 'ER_MTN_DGRDA' 'ER_RSK_LST' 'ER_CBD_SMTA' 'ER_CBD_NAGOYA'
+ 'ER_CBD_ABSCLRHS' 'ER_CBD_ORSPGRFA' 'ER_CBD_PTYPGRFA' 'ER_IAS_LEGIS'
+ 'ER_IAS_NBSAP' 'ER_IAS_NATBUD' 'ER_IAS_GLOFUN' 'ER_IAS_NBSAPP'
+ 'ER_IAS_NATBUDP' 'ER_IAS_GLOFUNP' 'ER_BDY_ABT2NP' 'ER_BDY_SEEA'
+ 'DC_ODA_BDVDL' 'DC_ODA_BDVL' 'VC_IHR_PSRC' 'VC_IHR_PSRCN' 'VC_VOV_PHYL'
+ 'VC_VOV_ROBB' 'VC_VOV_SEXL' 'VC_DTH_TOCVN' 'VC_SNS_WALN_DRK'
+ 'VC_DTH_TOTR' 'VC_DTH_TOTN' 'VC_DTH_TOUNN' 'VC_DTH_TONCVN' 'VC_DTH_TOTPT'
+ 'VC_VAW_MTUHRA' 'SG_INF_ACCSS' 'VC_VOC_ENFDIS' 'VC_VAW_SXVLN'
+ 'VC_VAW_PHYPYV' 'VC_HTF_DETVFL' 'VC_HTF_DETVOP' 'VC_HTF_DETVOG'
+ 'VC_HTF_DETVSX' 'VC_HTF_DETV' 'VC_HTF_DETVFLR' 'VC_HTF_DETVOPR'
+ 'VC_HTF_DETVOGR' 'VC_HTF_DETVSXR' 'VC_HTF_DETVR' 'VC_PRS_UNSNT'
+ 'VC_PRR_PHYV' 'VC_PRR_SEXV' 'VC_PRR_ROBB' 'SP_DISP_RESOL'
+ 'VC_ARM_SZTRACE' 'DI_ILL_IN' 'DI_ILL_OUT' 'IC_FRM_BRIB' 'IU_COR_BRIB'
+ 'GF_XPD_GBPC' 'SP_PSR_SATIS_HLTH' 'SP_PSR_SATIS_PRM' 'SP_PSR_SATIS_SEC'
+ 'SP_PSR_SATIS_GOV' 'SP_PSR_OSATIS_HLTH' 'SP_PSR_OSATIS_PRM'
+ 'SP_PSR_OSATIS_SEC' 'SP_PSR_OSATIS_GOV' 'SG_DMK_PARLCC_JC' 'IU_DMK_ICRS'
+ 'SG_DMK_PARLMP_LC' 'SG_DMK_PARLSP_LC' 'SG_DMK_PARLCC_LC'
+ 'SG_DMK_PARLMP_UC' 'SG_DMK_PARLSP_UC' 'SG_DMK_PARLCC_UC'
+ 'SG_DMK_PARLYR_LC' 'SG_DMK_PARLYP_LC' 'SG_DMK_PARLYN_LC'
+ 'SG_DMK_PARLYR_UC' 'SG_DMK_PARLYP_UC' 'SG_DMK_PARLYN_UC' 'SG_DMK_PSRVC'
+ 'SG_DMK_JDC' 'SG_DMK_JDC_HGR' 'SG_DMK_JDC_LWR' 'SG_DMK_JDC_CNS'
+ 'IU_DMK_INCL' 'IU_DMK_RESP' 'SG_REG_BRTH' 'SG_NHR_IMPL' 'SG_NHR_IMPLN'
+ 'SG_NHR_INTEXST' 'SG_NHR_NOSTUSN' 'SG_NHR_INTEXSTN' 'SG_NHR_NOAPPLN'
+ 'GR_G14_GDP' 'GC_GOB_TAXD' 'GR_G14_XDC' 'TM_TAX_WMFN' 'TM_TAX_WMPS'
+ 'TX_IMP_GBMRCH' 'TX_EXP_GBMRCH' 'TX_EXP_GBSVR' 'TX_IMP_GBSVR'
+ 'TM_TAX_DMFN' 'TM_TAX_DPRF' 'FB_BNK_CAPA_ZS' 'FM_LBL_BMNY_ZG'
+ 'FM_LBL_BMNY_IR_ZS' 'GC_BAL_CASH_GD_ZS' 'BN_CAB_XOKA_GD_ZS' 'PA_NUS_ATLS'
+ 'NE_EXP_GNFS_KD_ZG' 'DT_DOD_DECT_GN_ZS' 'BX_KLT_DINV_WD_GD_ZS'
+ 'NY_GDP_MKTP_KD_ZG' 'NE_CON_GOVT_KD_ZG' 'NE_GDI_TOTL_KD_ZG'
+ 'NE_CON_PRVT_KD_ZG' 'NE_IMP_GNFS_KD_ZG' 'FP_CPI_TOTL_ZG'
+ 'TG_VAL_TOTL_GD_ZS' 'BN_KLT_PTXL_CD' 'GC_TAX_TOTL_GD_ZS' 'FI_RES_TOTL_MO'
+ 'DP_DOD_DLD2_CR_CG_Z1' 'SG_CPA_SDEVP' 'SG_PLN_PRVRIMON' 'SG_PLN_RECRIMON'
+ 'SG_PLN_PRVNDI' 'SG_PLN_RECNDI' 'SG_PLN_PRVRICTRY' 'SG_PLN_RECRICTRY'
+ 'SG_PLN_REPOLRES' 'SG_PLN_PRPOLRES' 'SG_PLN_MSTKSDG_P' 'SG_PLN_MSTKSDG_R'
+ 'GF_COM_PPPI' 'GF_COM_PPPI_KD' 'SG_STT_NSDSFDGVT' 'SG_STT_FPOS'
+ 'SG_STT_NSDSFDDNR' 'SG_STT_NSDSFDOTHR' 'SG_STT_NSDSIMPL' 'SG_STT_NSDSFND'
+ 'SG_REG_BRTH90' 'SG_REG_DETH75' 'SG_REG_CENSUS' 'SG_REG_CENSUSN'
+ 'SG_REG_BRTH90N' 'SG_REG_DETH75N' 'SG_STT_CAPTY' 'DC_ODA_SIDSG'
+ 'DC_ODA_LDCG' 'DC_ODA_LLDC' 'DC_ODA_SIDS' 'DC_ODA_LDCS' 'DC_ODA_LLDCG'
+ 'DC_ODA_TOTG' 'DC_ODA_TOTL' 'DC_ODA_TOTLGE' 'DC_ODA_TOTGGE' 'BX_TRF_PWKR'
+ 'GF_FRN_FDI' 'DC_OSSD_GRT' 'DC_OSSD_OFFCL' 'DC_OSSD_OFFNL' 'DC_OSSD_MPF'
+ 'DC_OSSD_PRVGRT' 'DT_TDS_DECT' 'SG_CPA_OFDI' 'IT_NET_BBNDN' 'IT_NET_BBND'
+ 'DC_ENVTECH_EXP' 'DC_ENVTECH_IMP' 'DC_ENVTECH_REXP' 'DC_ENVTECH_RIMP'
+ 'DC_ENVTECH_INV' 'DC_ENVTECH_TT' 'IT_USE_ii99' 'DC_FTA_TOTAL']
+Number of records for each "SeriesCode" : 
+<bound method Series.sort_values of SeriesCode
+EN_MAT_DOMCMPT    169174
+EN_MAT_DOMCMPC    167712
+EN_MAT_DOMCMPG    167140
+SE_TOT_CPLR       136527
+ER_MTN_GRNCOV      43065
+                   ...  
+EN_ADAP_COM_DV         2
+EN_NAD_CONTR           2
+EN_NACOM_AIP           1
+EN_BIUREP_AIP          1
+EN_NAA_PLAN            1
+Name: count, Length: 662, dtype: int64> 
+
+Field: "isDSDSeries" 
+Count of Unique Values: 1
+[1]
+Number of records for each "isDSDSeries" : 
+<bound method Series.sort_values of isDSDSeries
+1    2668219
+Name: count, dtype: int64> 
+
+Field: "SeriesDescription" 
+Count of Unique Values: 662
+['Proportion of population below international poverty line (%)'
+ 'Employed population below international poverty line, by sex and age (%)'
+ 'Proportion of population living below the national poverty line (%)'
+ 'Proportion of population living in multidimensional poverty (%)'
+ 'Average proportion of deprivations for people multidimensionally poor (%)'
+ 'Proportion of households living in multidimensional poverty (%)'
+ 'Proportion of children living in child-specific multidimensional poverty (%)'
+ 'Average share of weighted deprivations of total households (intensity) (%)'
+ '[ILO] Proportion of mothers with newborns receiving maternity cash benefit (%)'
+ '[ILO] Proportion of poor population receiving social assistance cash benefit, by sex (%)'
+ '[World Bank] Proportion of population covered by social assistance programs (%)'
+ '[World Bank] Proportion of population covered by social insurance programs (%)'
+ '[ILO] Proportion of children/households receiving child/family cash benefit, by sex (%)'
+ '[ILO] Proportion of unemployed persons receiving unemployment cash benefit, by sex (%)'
+ '[ILO] Proportion of vulnerable population receiving social assistance cash benefit, by sex (%)'
+ '[ILO] Proportion of employed population covered in the event of work injury, by sex (%)'
+ '[ILO] Proportion of population covered by at least one social protection benefit, by sex (%)'
+ '[ILO] Proportion of population with severe disabilities receiving disability cash benefit, by sex (%)'
+ '[World Bank] Proportion of population covered by labour market programs (%)'
+ '[ILO] Proportion of population above statutory pensionable age receiving a pension, by sex (%)'
+ 'Proportion of population using basic drinking water services, by location (%)'
+ 'Proportion of population using basic sanitation services, by location (%)'
+ 'Proportion of people with legally recognized documentation of their rights to land out of total adult population, by sex (%)'
+ 'Proportion of people who perceive their rights to land as secure out of total adult population, by sex (%)'
+ 'Proportion of people with secure tenure rights to land out of total adult population, by sex (%)'
+ 'Direct economic loss attributed to disasters (current United States dollars)'
+ 'Number of missing persons due to disaster (number)'
+ 'Number of people affected by disaster (number)'
+ 'Number of deaths due to disaster (number)'
+ 'Number of deaths and missing persons attributed to disasters per 100,000 population (number)'
+ 'Number of deaths and missing persons attributed to disasters (number)'
+ 'Number of directly affected persons attributed to disasters per 100,000 population (number)'
+ 'Number of injured or ill people attributed to disasters (number)'
+ 'Number of people whose damaged dwellings were attributed to disasters (number)'
+ 'Number of people whose destroyed dwellings were attributed to disasters (number)'
+ 'Number of people whose livelihoods were disrupted or destroyed, attributed to disasters (number)'
+ 'Score of adoption and implementation of national DRR strategies in line with the Sendai Framework'
+ 'Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies (%)'
+ 'Number of local governments that adopt and implement local DRR strategies in line with national strategies (number)'
+ 'Number of local governments (number)'
+ 'Direct economic loss attributed to disasters relative to GDP (%)'
+ 'Direct agriculture loss attributed to disasters (current United States dollars)'
+ 'Direct economic loss resulting from damaged or destroyed critical infrastructure attributed to disasters (current United States dollars)'
+ 'Direct economic loss to cultural heritage damaged or destroyed attributed to disasters (millions of current United States dollars)'
+ 'Direct economic loss to other damaged or destroyed productive assets attributed to disasters (current United States dollars)'
+ 'Number of countries that reported having a National DRR Strategy which is aligned to the Sendai Framework'
+ 'Proportion of total government spending on essential services, education (%)'
+ 'Official development assistance grants for poverty reduction, by recipient countries (percentage of GNI)'
+ 'Official development assistance grants for poverty reduction, by donor countries (percentage of GNI)'
+ 'Official development assistance grants for poverty reduction (percentage of GNI)'
+ 'Prevalence of undernourishment (%)'
+ 'Prevalence of moderate or severe food insecurity (%)'
+ 'Number of moderately or severely food insecure people (thousands of people)'
+ 'Prevalence of severe food insecurity (%)'
+ 'Number of severely food insecure people (thousands of people)'
+ 'Number of undernourished people (millions)'
+ 'Proportion of children moderately or severely stunted (%)'
+ 'Children moderately or severely stunted (thousands)'
+ 'Proportion of children moderately or severely wasted (%)'
+ 'Children moderately or severely wasted (thousands)'
+ 'Proportion of children moderately or severely overweight (%)'
+ 'Children moderately or severely overweight (thousands)'
+ 'Proportion of women aged 15-49 years with anaemia (%)'
+ 'Proportion of women aged 15-49 years with anaemia, pregnant (%)'
+ 'Proportion of women aged 15-49 years with anaemia, non-pregnant (%)'
+ 'Productivity of small-scale food producers (agricultural output per labour day, PPP) (constant 2017 international $)'
+ 'Average income of small-scale food producers, PPP (constant 2017 international $)'
+ 'Productivity of large-scale food producers (agricultural output per labour day, PPP) (constant 2017 international $)'
+ 'Average income of large-scale food producers, PPP (constant 2017 international $)'
+ 'Proportion of agricultural area under productive and sustainable agriculture (%)'
+ 'Proportion of agricultural land area that has achieved an acceptable or desirable level of farm output value per hectare (%)'
+ 'Proportion of agricultural land area that has achieved an acceptable or desirable level of net farm income (%)'
+ 'Proportion of agricultural land area that has achieved an acceptable or desirable level of risk mitigation mechanisms (%)'
+ 'Proportion of agricultural land area that has achieved an acceptable or desirable level of soil degradation (%)'
+ 'Proportion of agricultural land area that has achieved an acceptable or desirable level of variation in water availability (%)'
+ 'Proportion of agricultural land area that has achieved an acceptable or desirable level of management of fertilizers (%)'
+ 'Proportion of agricultural land area that has achieved an acceptable or desirable level of management of pesticides (%)'
+ 'Proportion of agricultural land area that has achieved an acceptable or desirable level of use of agro-biodiversity supportive practices (%)'
+ 'Proportion of agricultural land area that has achieved an acceptable or desirable level of wage rate in agriculture (%)'
+ 'Proportion of agricultural land area that has achieved an acceptable or desirable level of food security (%)'
+ 'Proportion of agricultural land area that has achieved an acceptable or desirable level of secure tenure rights to agricultural land (%)'
+ 'Number of local breeds kept in the country'
+ 'Number of local breeds for which sufficient genetic resources are stored for reconstitution'
+ 'Number of local breeds with unknown risk status (number)'
+ 'Plant genetic resources accessions stored ex situ (number)'
+ 'Proportion of local breeds classified as being at risk as a percentage of local breeds with known level of extinction risk (%)'
+ 'Number of transboundary breeds for which sufficient genetic resources are stored for reconstitution'
+ 'Number of local breeds (not extinct) (number)'
+ 'Number of transboundary breeds (including extinct ones)'
+ 'Agriculture orientation index for government expenditures'
+ 'Total official flows (disbursements) for agriculture, by recipient countries (millions of constant 2021 United States dollars)'
+ 'Agriculture value added share of GDP (%)'
+ 'Agriculture share of Government Expenditure (%)'
+ 'Agricultural export subsidies (millions of current United States dollars)'
+ 'Indicator of Food Price Anomalies (IFPA), by type of product'
+ 'Indicator of Food Price Anomalies (IFPA), by Consumer Food Price Index'
+ 'Proportion of countries recording abnormally high or moderately high food prices, according to the Indicator of Food Price Anomalies (%)'
+ 'Proportion of births attended by skilled health personnel (%)'
+ 'Maternal mortality ratio' 'Infant deaths (number)'
+ 'Under-five mortality rate, by sex (deaths per 1,000 live births)'
+ 'Neonatal deaths (number)'
+ 'Infant mortality rate (deaths per 1,000 live births)'
+ 'Neonatal mortality rate (deaths per 1,000 live births)'
+ 'Under-five deaths (number)'
+ 'Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)'
+ 'Malaria incidence per 1,000 population at risk (per 1,000 population)'
+ 'Number of people requiring interventions against neglected tropical diseases (number)'
+ 'Tuberculosis incidence (per 100,000 population)'
+ 'Prevalence of hepatitis B surface antigen (HBsAg) (%)'
+ 'Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)'
+ 'Suicide mortality rate, by sex (deaths per 100,000 population)'
+ 'Number of deaths attributed to suicide, by sex (number)'
+ 'Number of deaths attributed to non-communicable diseases, by type of disease and sex (number)'
+ 'Alcohol consumption per capita (aged 15 years and older) within a calendar year (litres of pure alcohol)'
+ 'Alcohol use disorders, 12-month prevalence (%)'
+ 'Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders (%)'
+ 'Death rate due to road traffic injuries, by sex (per 100,000 population)'
+ 'Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods (% of women aged 15-49 years)'
+ 'Adolescent birth rate (per 1,000 women aged 15-19 and 10-14 years)'
+ 'Proportion of population with large household expenditures on health (greater than 25%) as a share of total household expenditure or income (%)'
+ 'Proportion of population with large household expenditures on health (greater than 10%) as a share of total household expenditure or income (%)'
+ 'Universal health coverage (UHC) service coverage index'
+ 'Age-standardized mortality rate attributed to household air pollution (deaths per 100,000 population)'
+ 'Age-standardized mortality rate attributed to household and ambient air pollution (deaths per 100,000 population)'
+ 'Mortality rate attributed to unintentional poisonings, by sex (deaths per 100,000 population)'
+ 'Age-standardized mortality rate attributed to ambient air pollution (deaths per 100,000 population)'
+ 'Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene from diarrhoea, intestinal nematode infections, malnutrition and acute respiratory infections (deaths per 100,000 population)'
+ 'Age-standardized prevalence of current tobacco use among persons aged 15 years and older, by sex (%)'
+ 'Total official development assistance to medical research and basic health sectors, net disbursement, by recipient countries (millions of constant 2021 United States dollars)'
+ 'Total official development assistance to medical research and basic health sectors, gross disbursement, by recipient countries (millions of constant 2021 United States dollars)'
+ 'Proportion of the target population with access to 3 doses of diphtheria-tetanus-pertussis (DTP3) (%)'
+ 'Proportion of the target population with access to measles-containing-vaccine second-dose (MCV2) (%)'
+ 'Proportion of the target population with access to pneumococcal conjugate 3rd dose (PCV3) (%)'
+ 'Proportion of the target population with access to affordable medicines and vaccines on a sustainable basis, human papillomavirus (HPV) (%)'
+ 'Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis (%)'
+ 'Health worker density, by type of occupation (per 10,000 population)'
+ 'Health worker distribution, by sex and type of occupation (%)'
+ 'International Health Regulations (IHR) capacity, by type of IHR capacity (%)'
+ 'Percentage of bloodstream infection due to methicillin-resistant Staphylococcus aureus (MRSA) among patients seeking care and whose blood sample is taken and tested (%)'
+ 'Percentage of bloodstream infection due to Escherichia coli resistant to 3rd-generation cephalosporin (e.g., ESBL- E. coli) among patients seeking care and whose blood sample is taken and tested (%)'
+ 'Proportion of children and young people achieving a minimum proficiency level in reading and mathematics (%)'
+ 'Completion rate, by sex, location, wealth quintile and education level (%)'
+ 'Participation rate in organized learning (one year before the official primary entry age), by sex (%)'
+ 'Proportion of children aged 36−59 months who are developmentally on track in at least three of the following domains: literacy-numeracy, physical development, social-emotional development, and learning (% of children aged 36-59 months)'
+ 'Participation rate in formal and non-formal education and training, by sex (%)'
+ 'Proportion of youth and adults with information and communications technology (ICT) skills, by sex and type of skill (%)'
+ 'Adjusted gender parity index for participation rate in organized learning (one year before the official primary entry age), (ratio)'
+ 'Adjusted gender parity index for the proportion of teachers with the minimum required qualifications, by education level (ratio)'
+ 'Adjusted gender parity index for participation rate in formal and non-formal education and training (ratio)'
+ 'Gender parity index for youth/adults with information and communications technology (ICT) skills, by type of skill (ratio)'
+ 'Adjusted immigration status parity index for achieving at least a fixed level of proficiency in functional skills, by numeracy/literacy skills (ratio)'
+ 'Adjusted immigration status parity index for achieving a minimum proficiency level in reading and mathematics (ratio)'
+ 'Adjusted language test parity index for achieving a minimum proficiency level in reading and mathematics (ratio)'
+ 'Adjusted gender parity index for achieving a minimum proficiency level in reading and mathematics (ratio)'
+ 'Adjusted low to high socio-economic parity index for achieving a minimum proficiency level in reading and mathematics (ratio)'
+ 'Adjusted rural to urban parity index for achieving a minimum proficiency level in reading and mathematics (ratio)'
+ 'Adjusted location parity index for completion rate, by sex, wealth quintile and education level'
+ 'Adjusted wealth parity index for completion rate, by sex, location and education level'
+ 'Adjusted gender parity index for completion rate, by location, wealth quintile and education level'
+ 'Adjusted gender parity index for achieving at least a fixed level of proficiency in functional skills, by numeracy/literacy skills (ratio)'
+ 'Adjusted low to high socio-economic parity status index for achieving at least a fixed level of proficiency in functional skills, by numeracy/literacy skills (ratio)'
+ 'Proportion of population achieving at least a fixed level of proficiency in functional skills, by sex, age and type of skill (%)'
+ 'Extent to which global citizenship education and education for sustainable development are mainstreamed in national education policies'
+ 'Extent to which global citizenship education and education for sustainable development are mainstreamed in curricula'
+ 'Extent to which global citizenship education and education for sustainable development are mainstreamed in teacher education'
+ 'Extent to which global citizenship education and education for sustainable development are mainstreamed in student assessment'
+ 'Proportion of schools with access to\xa0computers for pedagogical purposes, by education level (%)'
+ 'Proportion of schools with access to basic drinking water, by education level (%)'
+ 'Proportion of schools with access to\xa0electricity, by education level (%)'
+ 'Proportion of schools with basic handwashing facilities, by education level (%)'
+ 'Proportion of schools with access to the internet for pedagogical purposes, by education level (%)'
+ 'Proportion of schools with access to single-sex basic sanitation, by education level (%)'
+ 'Proportion of schools with access to adapted infrastructure and materials for students with disabilities, by education level (%)'
+ 'Total official flows for scholarships, by recipient countries (millions of constant 2021 United States dollars)'
+ 'Proportion of teachers with the minimum required qualifications, by education level and sex (%)'
+ 'Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 1: overarching legal frameworks and public life'
+ 'Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) --  Area 2: violence against women'
+ 'Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 3: employment and economic benefits'
+ 'Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 4: marriage and family'
+ 'Proportion of ever-partnered women and girls subjected to physical and/or sexual violence by a current or former intimate partner in the previous 12 months, by age (%)'
+ 'Proportion of women aged 20-24 years who were married or in a union before age 18 (%)'
+ 'Proportion of girls and women aged 15-49 years who have undergone female genital mutilation, by age (%)'
+ 'Proportion of women aged 20-24 years who were married or in a union before age 15 (%)'
+ 'Proportion of time spent on unpaid care work, by sex, age and location (%)'
+ 'Proportion of time spent on unpaid domestic chores, by sex, age and location (%)'
+ 'Proportion of time spent on unpaid domestic chores and care work, by sex, age and location (%)'
+ 'Proportion of women in managerial positions - 13th ICLS (%)'
+ 'Proportion of women in senior and middle management positions - 13th ICLS (%)'
+ 'Number of seats held by women in national parliaments (number)'
+ 'Current number of seats in national parliaments (number)'
+ 'Proportion of seats held by women in national parliaments (% of total number of seats)'
+ 'Proportion of elected seats held by women in deliberative bodies of local government (%)'
+ 'Proportion of women in managerial positions - 19th ICLS (%)'
+ 'Proportion of women in senior and middle management positions - 19th ICLS (%)'
+ 'Proportion of women who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care (% of women aged 15-49 years)'
+ 'Proportion of women who make their own informed decisions regarding sexual relations (% of women aged 15-49 years)'
+ 'Proportion of women who make their own informed decisions regarding contraceptive use (% of women aged 15-49 years)'
+ 'Proportion of women who make their own informed decisions regarding reproductive health care (% of women aged 15-49 years)'
+ 'Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education (%)'
+ '(S.1.C.1) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 1: Maternity Care (%)'
+ '(S.4.C.10) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 10: HIV Counselling and Test Services'
+ '(S.4.C.11) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 11: HIV Treatment and Care Services (%)'
+ '(S.4.C.12) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 12: HIV Confidentiality (%)'
+ '(S.4.C.13) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 13: HPV Vaccine (%)'
+ '(S.1.C.2) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 2: Life Saving Commodities (%)'
+ '(S.1.C.3) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 3: Abortion'
+ '(S.1.C.4) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 4: Post-Abortion Care (%)'
+ '(S.2.C.5) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 5: Contraceptive Services (%)'
+ '(S.2.C.6) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 6: Contraceptive Consent (%)'
+ '(S.2.C.7) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 7: Emergency Contraception (%)'
+ '(S.3.C.8) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 8: Sexuality Education Curriculum Laws (%)'
+ '(S.3.C.9) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 9: Sexuality Education Curriculum Topics (%)'
+ '(S.1) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Section 1: Maternity Care (%)'
+ '(S.2) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Section 2: Contraceptive and Family Planning (%)'
+ '(S.3) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Section 3: Sexuality Education (%)'
+ '(S.4) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Section 4: HIV and HPV (%)'
+ 'Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex (%)'
+ 'Share of women among owners or rights-bearers of agricultural land, by type of tenure (%)'
+ 'Degree to which the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control (1=No evidence to 6=Highest levels of guarantees)'
+ 'Proportion of individuals who own a mobile telephone, by sex (%)'
+ "Proportion of countries with systems to track and make public allocations for gender equality and women's empowerment (%)"
+ 'Proportion of population using safely managed drinking water services, by urban/rural (%)'
+ 'Proportion of population with basic handwashing facilities on premises, by urban/rural (%)'
+ 'Proportion of population using safely managed sanitation services, by urban/rural (%)'
+ 'Proportion of population practicing open defecation, by urban/rural (%)'
+ 'Proportion of open water bodies with good ambient water quality (%)'
+ 'Proportion of river water bodies with good ambient water quality (%)'
+ 'Proportion of groundwater bodies with good ambient water quality (%)'
+ 'Proportion of bodies of water with good ambient water quality (%)'
+ 'Proportion of safely treated domestic wastewater flows (%)'
+ 'Total wastewater generated (million m3/year)'
+ 'Total wastewater treated (million m3/year)'
+ 'Proportion of wastewater treated, by activity and location (%)'
+ 'Level of water stress: freshwater withdrawal as a proportion of available freshwater resources (%)'
+ 'Water Use Efficiency (United States dollars per cubic meter)'
+ 'Proportion of transboundary basins (river and lake basins and aquifers) with an operational arrangement for water cooperation (%)'
+ 'Proportion of transboundary aquifers with an operational arrangement for water cooperation (%)'
+ 'Proportion of transboundary river and lake basins with an operational arrangement for water cooperation (%)'
+ 'Degree of integrated water resources management implementation (%)'
+ 'Proportion of countries by IWRM implementation category (%)'
+ 'Degree of integrated water resources management implementation, enabling environment (%)'
+ 'Degree of integrated water resources management implementation, institutions and participation (%)'
+ 'Degree of integrated water resources management implementation, management instruments (%)'
+ 'Degree of integrated water resources management implementation, financing (%)'
+ 'Nationally derived quantity of groundwater (millions of cubic metres per annum)'
+ 'Nationally derived quantity of rivers (million of cubic metres per annum)'
+ 'Extent of human made wetlands (square kilometres)'
+ 'Extent of inland wetlands (square kilometres)'
+ 'Lakes and rivers permanent water area (square kilometres)'
+ 'Lakes and rivers permanent water area (% of total land area)'
+ 'Lakes and rivers seasonal water area (square kilometres)'
+ 'Lakes and rivers seasonal water area (% of total land area)'
+ 'Lakes and rivers permanent water area change (%)'
+ 'Lakes and rivers seasonal water area change (%)'
+ 'Reservoir minimum water area (square kilometres)'
+ 'Reservoir minimum water area (% of total land area)'
+ 'Reservoir maximum water area (square kilometres)'
+ 'Reservoir maximum water area (% of total land area)'
+ 'Wetlands area (square kilometres)'
+ 'Wetlands area (% of total land area)' 'Lake water quality turbidity (%)'
+ 'Lake water quality trophic state (%)'
+ 'Mangrove area (square kilometres)' 'Mangrove total area change (%)'
+ 'Total official development assistance (gross disbursement) for water supply and sanitation, by recipient countries (millions of constant 2021 United States dollars)'
+ 'Countries with users/communities participating in planning programs in rural drinking-water supply, by level of participation (3 = High; 2 = Moderate; 1 = Low; 0 = NA)'
+ 'Countries with procedures in law or policy for participation by service users/communities in planning program in rural drinking-water supply, by level of definition in procedures (10 = Clearly defined; 5 = Not clearly defined ; 0 = NA)'
+ 'Countries with users/communities participating in planning programs in water resources planning and management, by level of participation (3 = High; 2 = Moderate; 1 = Low; 0 = NA)'
+ 'Countries with procedures in law or policy for participation by service users/communities in planning program in water resources planning and management, by level of definition in procedures (10 = Clearly defined; 5 = Not clearly defined ; 0 = NA)'
+ 'Proportion of population with primary reliance on clean fuels and technology (%)'
+ 'Proportion of population with access to electricity, by urban/rural (%)'
+ 'Renewable energy share in the total final energy consumption (%)'
+ 'Energy intensity level of primary energy (megajoules per constant 2017 purchasing power parity GDP)'
+ 'International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems (millions of constant 2020 United States dollars)'
+ 'Installed renewable\xa0electricity-generating capacity (watts per capita)'
+ 'Annual growth rate of real GDP per capita (%)'
+ 'Number of automated teller machines (ATMs) per 100,000 adults'
+ 'Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider, by sex (% of adults aged 15 years and older)'
+ 'Number of commercial bank branches per 100,000 adults'
+ 'Proportion of adults (15 years and older) active in labor force with an account at a financial institution or mobile-money-service provider (% of adults aged 15 years and older)'
+ 'Proportion of adults (15 years and older) out of labor force with an account at a financial institution or mobile-money-service provider (% of adults aged 15 years and older)'
+ 'Annual growth rate of real GDP per employed person (%)'
+ 'Proportion of informal employment, by sector and sex (ILO harmonized estimates) - 13th ICLS (%)'
+ 'Proportion of informal employment, by sector and sex (ILO harmonized estimates) - 19th ICLS (%)'
+ 'Material footprint per unit of GDP, by type of raw material (kilograms per constant 2015 United States dollar)'
+ 'Domestic material consumption, by type of raw material (tonnes)'
+ 'Material footprint per capita, by type of raw material (tonnes)'
+ 'Domestic material consumption per unit of GDP, by type of raw material (kilograms per constant 2015 United States dollars)'
+ 'Material footprint, by type of raw material (tonnes)'
+ 'Domestic material consumption per capita, by type of raw material (tonnes)'
+ 'Unemployment rate, by sex and age - 13th ICLS (%)'
+ 'Average hourly earnings of employees by sex and occupation (local currency)'
+ 'Unemployment rate, by sex and disability - 13th ICLS (%)'
+ 'Unemployment rate, by sex and age - 19th ICLS (%)'
+ 'Unemployment rate, by sex and disability - 19th ICLS (%)'
+ 'Proportion of youth not in education, employment or training, by sex and age - 13th ICLS (%)'
+ 'Proportion of youth not in education, employment or training, by sex and age - 19th ICLS (%)'
+ 'Proportion of children engaged in economic activity and household chores, by sex and age (%)'
+ 'Proportion of children engaged in economic activity, by sex and age  (%)'
+ 'Fatal occupational injuries among employees, by sex and migrant status (per 100,000 employees)'
+ 'Non-fatal occupational injuries among employees, by sex and migrant status (per 100,000 employees)'
+ 'Level of national compliance with labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation'
+ 'Tourism direct GDP as a proportion of total GDP (%)'
+ 'Total official flows (commitments) for Aid for Trade, by donor countries (millions of constant 2021 United States dollars)'
+ 'Total official flows (disbursement) for Aid for Trade, by donor countries (millions of constant 2021 United States dollars)'
+ 'Total official flows (disbursement) for Aid for Trade, by recipient countries (millions of constant 2021 United States dollars)'
+ 'Total official flows (commitments) for Aid for Trade, by recipient countries (millions of constant 2021 United States dollars)'
+ 'Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy'
+ 'Freight volume, by mode of transport (tonne kilometres)'
+ 'Passenger volume (passenger kilometres), by mode of transport'
+ 'Proportion of the rural population who live within 2\xa0km of an all-season road'
+ 'Container port traffic, maritime transport (twenty-foot equivalent units - TEUs)'
+ 'Freight loaded and unloaded, maritime transport (metric tons)'
+ 'Manufacturing value added per capita (constant 2015 United States dollars)'
+ 'Manufacturing employment as a proportion of total employment - 13th ICLS (%)'
+ 'Manufacturing value added (constant 2015 United States dollars) as a proportion of GDP (%)'
+ 'Manufacturing value added (current United States dollars) as a proportion of GDP (%)'
+ 'Manufacturing employment as a proportion of total employment - 19th ICLS(%)'
+ 'Proportion of small-scale manufacturing industries in total manufacturing value added (%)'
+ 'Proportion of small-scale industries with a loan or line of credit (%)'
+ 'Carbon dioxide emissions from fuel combustion (millions of tonnes)'
+ 'Carbon dioxide emissions per unit of manufacturing value added (kilogrammes of CO2 per constant 2015 United States dollars)'
+ 'Carbon dioxide emissions per unit of GDP PPP (kilogrammes of CO2 per constant 2017 United States dollars)'
+ 'Researchers (in full-time equivalent) per million inhabitants (per 1,000,000 population)'
+ 'Research and development expenditure as a proportion of GDP (%)'
+ 'Total official flows for infrastructure, by recipient countries (millions of constant 2021 United States dollars)'
+ 'Proportion of medium and high-tech manufacturing value added in total value added (%)'
+ 'Proportion of population covered by at least a 2G mobile network (%)'
+ 'Proportion of population covered by at least a 3G mobile network (%)'
+ 'Proportion of population covered by at least a 4G mobile network (%)'
+ 'Growth rates of household expenditure or income per capita (%)'
+ 'Proportion of people living below 50 percent of median income (%)'
+ 'Proportion of population reporting having felt discriminated against, by grounds of discrimination, sex and disability (%)'
+ 'Labour share of GDP (%)'
+ 'Redistributive impact of fiscal policy, Gini index (%)'
+ 'Non-performing loans to total gross loans (%)' 'Return on assets (%)'
+ 'Regulatory capital to assets (%)'
+ 'Non-performing loans net of provisions to capital (%)'
+ 'Regulatory Tier 1 capital to risk-weighted assets (%)'
+ 'Liquid assets to short term liabilities (%)'
+ 'Net open position in foreign exchange to capital (%)'
+ 'Proportion of members of developing countries in international organizations, by organization (%)'
+ 'Proportion of voting rights of developing countries in international organizations, by organization (%)'
+ 'Proportion of countries with migration policies to facilitate orderly, safe, regular and responsible migration and mobility of people, by policy domain (%)'
+ 'Countries with migration policies to facilitate orderly, safe, regular and responsible migration and mobility of people, by policy domain (1 = Requires further progress; 2 = Partially meets; 3 = Meets; 4 = Fully meets)'
+ 'Number of refugees per 100,000 population, by country of origin (per 100,000 population)'
+ 'Total deaths and disappearances recorded during migration (number)'
+ 'Migrant recruitment costs (number of months of earnings)'
+ 'Proportion of tariff lines applied to imports with zero-tariff (%)'
+ 'Total assistance for development, by donor countries (millions of current United States dollars)'
+ 'Total assistance for development, by recipient countries (millions of current United States dollars)'
+ 'Total resource flows for development, by recipient and donor countries (millions of current United States dollars)'
+ 'Average remittance costs of sending $200 to a receiving country as a proportion of the amount remitted (%)'
+ 'Average remittance costs of sending $200 in a corridor as a proportion of the amount remitted (%)'
+ 'SmaRT average remittance costs of sending $200 in a corridor as a proportion of the amount remitted (%)'
+ 'Average remittance costs of sending $200 for a sending country as a proportion of the amount remitted (%)'
+ 'Proportion of urban population living in slums (%)'
+ 'Proportion of population that has convenient access to public transport (%)'
+ 'Ratio of land consumption rate to population growth rate'
+ 'Total expenditure per capita spent on cultural and natural heritage, public (PPP, constant 2017 United States dollars)'
+ 'Total expenditure per capita spent on cultural and natural heritage, private (PPP, constant 2017 United States dollars)'
+ 'Total expenditure per capita spent on cultural and natural heritage, public and private (PPP, constant 2017 United States dollars)'
+ 'Total expenditure per capita spent on cultural heritage, public and private (PPP, constant 2017 United States dollars)'
+ 'Total expenditure per capita spent on natural heritage, public and private (PPP, constant 2017 United States dollars)'
+ 'Number of damaged critical infrastructure attributed to disasters (number)'
+ 'Number of destroyed or damaged health facilities attributed to disasters (number)'
+ 'Number of destroyed or damaged educational facilities attributed to disasters (number)'
+ 'Number of other destroyed or damaged critical infrastructure units and facilities attributed to disasters (number)'
+ 'Number of disruptions to basic services attributed to disasters (number)'
+ 'Number of disruptions to educational services attributed to disasters (number)'
+ 'Number of disruptions to health services attributed to disasters (number)'
+ 'Number of disruptions to other basic services attributed to disasters (number)'
+ 'Annual mean levels of fine particulate matter (population-weighted), by location (micrograms per cubic meter)'
+ 'Municipal Solid Waste collection coverage, by cities (%)'
+ 'Average share of the built-up area of cities that is open space for public use for all (%)'
+ 'Proportion of persons victim of physical or sexual harassment, in the previous 12 months (%)'
+ 'Countries that have national urban policies or regional development plans that respond to population dynamics; ensure balanced territorial development; and increase local fiscal space (1 = YES; 0 = NO)'
+ 'Countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or target into national policies (1 = YES; 0 = NO)'
+ 'Countries with policy instrument for sustainable consumption and production (1 = YES; 0 = NO)'
+ 'Number of policies, instruments and mechanism in place for sustainable consumption and production (Number)'
+ 'Food waste per capita (KG)' 'Food waste (Tonnes)'
+ 'Global food loss index' 'Food loss percentage (%)'
+ 'Parties meeting their commitments and obligations in transmitting information as required by Montreal Protocol on hazardous waste, and other chemicals (%)'
+ 'Parties meeting their commitments and obligations in transmitting information as required by Rotterdam Convention on hazardous waste, and other chemicals (%)'
+ 'Parties meeting their commitments and obligations in transmitting information as required by Basel Convention on hazardous waste, and other chemicals (%)'
+ 'Parties meeting their commitments and obligations in transmitting information as required by Stockholm Convention on hazardous waste, and other chemicals (%)'
+ 'Parties meeting their commitments and obligations in transmitting information as required by Minamata Convention on hazardous waste, and other chemicals (%)'
+ 'Electronic waste generated (Tonnes)'
+ 'Electronic waste generated, per capita (Kg)'
+ 'Hazardous waste generated (Tonnes)'
+ 'Hazardous waste generated, per capita (Kg)'
+ 'Hazardous waste generated, per unit of GDP (kilograms per constant 2015 United States dollars)'
+ 'Hazardous waste treated, by type of treatment (Tonnes)'
+ 'Proportion of hazardous waste treated or disposed (%)'
+ 'Hazardous waste treated or disposed (Tonnes)'
+ 'Municipal waste collected (Tonnes)'
+ 'Proportion of municipal waste treated, by type of treatment (%)'
+ 'Municipal waste generated (Tonnes)'
+ 'Electronic waste collected (Tonnes)'
+ 'Electronic waste collected, per capita (KG)'
+ 'Proportion of electronic waste collected (%)'
+ 'Total waste generation, by activity (Tonnes)'
+ 'Hazardous waste exported, (Tonnes)' 'Hazardous waste imported, (Tonnes)'
+ 'Municipal waste treated by type of treatment (Tonnes)'
+ 'Municipal waste imported (Tonnes)' 'Municipal waste exported (Tonnes)'
+ 'Electronic waste recycled (Tonnes)'
+ 'Proportion of electronic waste recycled (%)'
+ 'Electronic waste recycled, per capita (Kg)'
+ 'Proportion of municipal waste recycled (%)'
+ 'Municipal waste recycled (Tonnes)'
+ 'Number of companies publishing sustainability reports with disclosure by dimension, by level of requirement (Number)'
+ 'Number of countries implementing sustainable public procurement policies and action plans'
+ 'Number of countries implementing sustainable public procurement policies and action plans at higher subnational level by level of implementation (1 = YES; 0 = NO)'
+ 'Number of countries implementing sustainable public procurement policies and action plans at lower subnational level by level of implementation (1 = YES; 0 = NO)'
+ 'Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism (number of tables)'
+ 'Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism (SEEA tables)'
+ 'Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism (Tourism Satellite Account tables)'
+ 'Fossil-fuel subsidies (consumption and production) as a proportion of total GDP (%)'
+ 'Fossil-fuel subsidies (consumption and production) (billions of nominal United States dollars)'
+ 'Fossil-fuel subsidies (consumption and production) per capita (nominal United States dollars)'
+ 'Total greenhouse gas emissions without LULUCF for Annex I Parties (Mt CO₂ equivalent)'
+ 'Total greenhouse gas emissions without LULUCF for non-Annex I Parties (Mt CO₂ equivalent)'
+ 'Number of countries with national communications, non-Annex I Parties (Number)'
+ 'Number of countries with biennial update reports, non-Annex I Parties (Number)'
+ 'Number of countries with national communications, Annex I Parties (Number)'
+ 'Number of countries with biennial reports, Annex I Parties (Number)'
+ 'Number of countries with adaptation communications (Number)'
+ 'Number of countries with nationally determined contributions (Number)'
+ 'Number of countries with national adaptation plans (Number)'
+ 'Climate-specific financial support provided via bilateral, regional and other channels, by type of support (Billions of current United States dollars)'
+ 'Climate-specific financial support provided via multilateral channels, by type of support (Billions of current United States dollars)'
+ 'Total climate-specific financial support provided (Billions of current United States dollars)'
+ 'Core/general contributions provided to multilateral institutions (Billions of current United States dollars)'
+ 'Total financial support provided (Billions of current United States dollars)'
+ 'Number of least developed countries and small island developing States with national communications, non-Annex I Parties (Number)'
+ 'Number of least developed countries and small island developing States with biennial update reports, non-Annex I Parties (Number)'
+ 'Number of least developed countries and small island developing States with adaptation communications (Number)'
+ 'Number of least developed countries and small island developing States with nationally determined contributions (Number)'
+ 'Number of least developed countries and small island developing States with national adaptation plans (Number)'
+ 'Indicator for Coastal Eutrophication Potential (ICEP) (kilograms of carbon from algae biomass per sq. km. of river basin area per day)'
+ 'Chlorophyll-a deviations, remote sensing (%)'
+ 'Chlorophyll-a anomaly, remote sensing (%)'
+ 'Beach litter per square kilometer (Number)'
+ 'Floating plastic debris density (count per km2)'
+ 'Beach litter originating from national land-based sources that ends in the beach (%)'
+ 'Beach litter originating from national land-based sources that ends in the beach (Tonnes)'
+ 'Beach litter originating from national land-based sources that ends in the ocean (%)'
+ 'Beach litter originating from national land-based sources that ends in the ocean (Tonnes)'
+ 'Exported beach litter originating from national land-based sources (Tonnes)'
+ 'Dissolved silica (DSi) (kilograms of silica from algae biomass per sq. km. of river basin area per day)'
+ 'Total Phosphorus (TP) (kilograms of phosphorus from algae biomass per sq. km. of river basin area per day)'
+ 'Total Nitrogen (TN) (kilograms of nitrogen from algae biomass per sq. km. of river basin area per day)'
+ 'Number of countries using ecosystem-based approaches to managing marine areas (1 = YES; 0 = NO)'
+ 'Average marine acidity (pH) measured at agreed suite of representative sampling stations'
+ 'Proportion of fish stocks within biologically sustainable levels (not overexploited) (%)'
+ 'Average proportion of Marine Key Biodiversity Areas (KBAs) covered by protected areas (%)'
+ 'Progress by countries in the degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing (level of implementation: 1 lowest to 5 highest)'
+ 'Sustainable fisheries as a proportion of GDP'
+ 'National ocean science expenditure as a share of total research and development funding (%)'
+ 'Degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries (level of implementation: 1 lowest to 5 highest)'
+ 'Score for the ratification of and accession to UNCLOS and its two implementing agreements (%)'
+ 'Score for the implementation of UNCLOS and its two implementing agreements (%)'
+ 'Land area (thousands of hectares)' 'Forest area (thousands of hectares)'
+ 'Forest area as a proportion of total land area (%)'
+ 'Average proportion of Freshwater Key Biodiversity Areas (KBAs) covered by protected areas (%)'
+ 'Average proportion of Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas (%)'
+ 'Above-ground biomass in forest (tonnes per hectare)'
+ 'Forest area certified under an independently verified certification scheme (thousands of hectares)'
+ 'Annual forest area change rate (%)'
+ 'Proportion of forest area with a long-term management plan (%)'
+ 'Proportion of forest area within legally established protected areas (%)'
+ 'Proportion of land that is degraded over total land area (%)'
+ 'Mountain Green Cover Index' 'Mountain area (square kilometres)'
+ 'Mountain green cover area (square kilometres)'
+ 'Average proportion of Mountain Key Biodiversity Areas (KBAs) covered by protected areas (%)'
+ 'Proportion of degraded mountain land (%)'
+ 'Area of degraded mountain land (square kilometres)' 'Red List Index'
+ 'Total reported number of Standard Material Transfer Agreements (SMTAs) transferring plant genetic resources for food and agriculture to the country (number)'
+ 'Countries that are parties to the Nagoya Protocol (1 = YES; 0 = NO)'
+ 'Countries that have legislative, administrative and policy framework or measures reported to the Access and Benefit-Sharing Clearing-House (1 = YES; 0 = NO)'
+ 'Countries that have legislative, administrative and policy framework or measures reported through the Online Reporting System on Compliance  of the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)'
+ 'Countries that are contracting Parties to the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)'
+ 'Legislation, Regulation, Act related to the prevention of introduction and management of Invasive Alien Species (1 = YES, 0 = NO)'
+ 'National Biodiversity Strategy and Action Plan (NBSAP) targets alignment to Aichi Biodiversity target 9 set out in the Strategic Plan for Biodiversity 2011-2020 (1 = YES, 0 = NO)'
+ 'Countries with an allocation from the national budget to manage the threat of invasive alien species\xa0(1 = YES, 0 = NO)'
+ 'Recipient countries of global funding with access to any funding from global financial mechanisms for projects related to invasive alien species\xa0 management (1 = YES, 0 = NO)'
+ 'Proportion of countries with National Biodiversity Strategy and Action Plan (NBSAP) targets alignment to Aichi Biodiversity target 9 set out in the Strategic Plan for Biodiversity 2011-2020 (%)'
+ 'Proportion of countries with allocation from the national budget to manage the threat of invasive alien species (%)'
+ 'Proportion of recipient countries of global funding with access to any funding from global financial mechanisms for projects related to invasive alien species\xa0 management (%)'
+ 'Countries that established national targets in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011-2020 in their National Biodiversity Strategy and Action Plans (1 = YES; 0 = NO)'
+ 'Countries with integrated biodiversity values into national accounting and reporting systems, defined as implementation of the System of Environmental-Economic Accounting  (1 = YES; 0 = NO)'
+ 'Total official development assistance for biodiversity, by donor countries (millions of constant 2021 United States dollars)'
+ 'Total official development assistance for biodiversity, by recipient countries (millions of constant 2021 United States dollars)'
+ 'Number of victims of intentional homicide per 100,000 population, by sex (victims per 100,000 population)'
+ 'Number of victims of intentional homicide, by sex (number)'
+ 'Proportion of population subjected to physical violence in the previous 12 months, by sex (%)'
+ 'Proportion of population subjected to robbery in the previous 12 months, by sex (%)'
+ 'Proportion of population subjected to sexual violence in the previous 12 months, by sex (%)'
+ 'Number of conflict-related deaths (civilians), by sex, age and cause of death (Number)'
+ 'Proportion of population that feel safe walking alone around the area they live after dark (%)'
+ 'Number of total conflict-related deaths per 100,000 population (Per 100,000 population)'
+ 'Number of total conflict-related deaths, by sex, age and cause of death (Number)'
+ 'Number of conflict-related deaths (unknown), by sex, age and cause of death (Number)'
+ 'Number of conflict-related deaths (non-civilians), by sex, age and cause of death (Number)'
+ 'Conflict-related total death rate, by sex, age and cause of death (%)'
+ 'Number of cases of killings of human rights defenders, journalists and trade unionists'
+ 'Countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information'
+ 'Number of cases of enforced disappearance of human rights defenders, journalists and trade unionists (Number)'
+ 'Proportion of population aged 18-29 years who experienced sexual violence by age\xa018, by sex (% of population aged 18-29)'
+ 'Proportion of children aged 1-14 years who experienced physical punishment and/or psychological aggression by caregivers in last month (% of children aged 1-14 years)'
+ 'Detected victims of human trafficking for forced labour, servitude and slavery, by age and sex (number)'
+ 'Detected victims of human trafficking for other purposes, by age and sex (number)'
+ 'Detected victims of human trafficking for removal of organ, by age and sex (number)'
+ 'Detected victims of human trafficking for sexual exploitation, by age and sex (number)'
+ 'Detected victims of human trafficking, by age and sex (number)'
+ 'Detected victims of human trafficking for forced labour, servitude and slavery, by age and sex (per 100,000 population)'
+ 'Detected victims of human trafficking for other purposes, by age and sex (per 100,000 population)'
+ 'Detected victims of human trafficking for removal of organ, by age and sex (per 100,000 population)'
+ 'Detected victims of human trafficking for sexual exploitation, by age and sex (per 100,000 population)'
+ 'Detected victims of human trafficking, by age and sex (per 100,000 population)'
+ 'Unsentenced detainees as a proportion of overall prison population (%)'
+ 'Police reporting rate for physical assault, by sex (%)'
+ 'Police reporting rate for sexual assault, by sex (%)'
+ 'Police reporting rate for robbery, by sex (%)'
+ 'Proportion of the population who have experienced a dispute in the past two years who accessed a formal or informal dispute resolution mechanism (%)'
+ 'Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments'
+ 'Total value of inward illicit financial flows'
+ 'Total value of outward illicit financial flows'
+ 'Bribery incidence (% of firms experiencing at least one bribe payment request)'
+ 'Prevalence rate of bribery, by sex (%)'
+ 'Primary government expenditures as a proportion of original approved budget (%)'
+ 'Proportion of population satisfied with their last experience of public services, healthcare services (%)'
+ 'Proportion of population satisfied with their last experience of public services, primary education services (%)'
+ 'Proportion of population satisfied with their last experience of public services, secondary education services (%)'
+ 'Proportion of population satisfied with their last experience of public services, government services (%)'
+ 'Proportion of population who say that overall they are satisfied with the quality of healthcare services (%)'
+ 'Proportion of population who say that overall they are satisfied with the quality of primary education services (%)'
+ 'Proportion of population who say that overall they are satisfied with the quality of secondary education services (%)'
+ 'Proportion of population who say that overall they are satisfied with the quality of government services (%)'
+ 'Number of chairs of permanent committees, by age sex and focus of the committee, Joint Committees'
+ 'Proportion of population who believe decision-making is inclusive and responsive (%)'
+ 'Ratio for female members of parliaments (Ratio of the proportion of women in parliament in the proportion of women in the national population\xa0with the age of eligibility as a lower bound boundary), Lower Chamber or Unicameral'
+ 'Number of speakers in parliament, by age and sex , Lower Chamber or Unicameral'
+ 'Number of chairs of permanent committees, by age sex and focus of the committee, Lower Chamber or Unicameral'
+ 'Ratio for female members of parliaments (Ratio of the proportion of women in parliament in the proportion of women in the national population\xa0with the age of eligibility as a lower bound boundary), Upper Chamber'
+ 'Number of speakers in parliament, by age and sex, Upper Chamber'
+ 'Number of chairs of permanent committees, by age sex and focus of the committee, Upper Chamber'
+ 'Ratio of young members in parliament (Ratio of the proportion of young members in parliament (age 45 or below) in the proportion of the national population (age 45 or below)\xa0with the age of eligibility as a lower bound boundary), Lower Chamber or Unicameral'
+ 'Proportion of youth in parliament (age 45 or below), Lower Chamber or Unicameral (%)'
+ 'Number of youth in parliament (age 45 or below), Lower Chamber or Unicameral (Number)'
+ 'Ratio of young members in parliament (Ratio of the proportion of young members in parliament (age 45 or below) in the proportion of the national population (age 45 or below)\xa0with the age of eligibility as a lower bound boundary), Upper Chamber'
+ 'Proportion of youth in parliament (age 45 or below), Upper Chamber (%)'
+ 'Number of youth in parliament (age 45 or below), Upper Chamber (Number)'
+ 'Proportions of positions in the public service compared to national distributions (ratio)'
+ 'Proportions of positions in the judiciary compared to national distributions (ratio)'
+ 'Proportions of positions in the judiciary compared to national distributions, Higher Courts (ratio)'
+ 'Proportions of positions in the judiciary compared to national distributions, Lower Courts (ratio)'
+ 'Proportions of positions in the judiciary compared to national distributions, Constitutional Court (ratio)'
+ 'Proportion of population who believe decision-making is inclusive (%)'
+ 'Proportion of population who believe decision-making is responsive (%)'
+ 'Proportion of children under 5 years of age whose births have been registered with a civil authority (% of children under 5 years of age)'
+ 'Proportion of countries with independent National Human Rights Institutions in compliance with the Paris Principles (%)'
+ 'Countries with National Human Rights Institutions in compliance with the Paris Principles, A status (1 = YES; 0 = NO)'
+ 'Proportion of countries that applied for accreditation as independent National Human Rights Institutions in compliance with the Paris Principles (%)'
+ 'Countries with National Human Rights Institutions and no status with the Paris Principles, C status (1 = YES; 0 = NO)'
+ 'Countries with National Human Rights Institutions not fully compliant with the Paris Principles, B status (1 = YES; 0 = NO)'
+ 'Countries with no application for accreditation with the Paris Principles, D status  (1 = YES; 0 = NO)'
+ 'Total government revenue (budgetary central government) as a proportion of GDP (%)'
+ 'Proportion of domestic budget funded by domestic taxes (% of GDP)'
+ 'Total government revenue, in local currency'
+ 'Worldwide weighted tariff-average, most-favoured-nation status, by type of product (%)'
+ 'Worldwide weighted tariff-average, preferential status, by type of product (%)'
+ 'Developing countries’ and least developed countries’ share of global merchandise imports (%)'
+ 'Developing countries’ and least developed countries’ share of global merchandise exports (%)'
+ 'Developing countries’ and least developed countries’ share of global services exports (%)'
+ 'Developing countries’ and least developed countries’ share of global services imports (%)'
+ 'Average tariff applied by developed countries, most-favored nation status, by type of product (%)'
+ 'Average tariff applied by developed countries, preferential status, by type of product (%)'
+ 'Bank capital to assets ratio (%)' 'Annual broad money growth (%)'
+ 'Broad money to total reserves ratio'
+ 'Cash surplus/deficit as a proportion of GDP (%)'
+ 'Current account balance as a proportion of GDP (%)'
+ 'DEC alternative conversion factor (in local currency unit per United States dollar)'
+ 'Annual growth of exports of goods and services (%)'
+ 'External debt stocks as a proportion of GNI (%)'
+ 'Foreign direct investment, net inflows, as a proportion of GDP (%)'
+ 'Annual GDP growth (%)'
+ 'Annual growth of the general government final consumption expenditure (%)'
+ 'Annual growth of the gross capital formation (%)'
+ 'Annual growth of households and NPISHs final consumption expenditure (%)'
+ 'Annual growth of imports of goods and services (%)'
+ 'Annual inflation, consumer prices (%)'
+ 'Merchandise trade as a proportion of GDP (%)'
+ 'Portfolio investment, net (Balance of Payments, current United States dollars)'
+ 'Tax revenue as a proportion of GDP (%)'
+ 'Total reserves in months of imports (ratio)'
+ 'Gross public sector debt, Central Government, as a proportion of GDP (%)'
+ 'Mechanisms in place to enhance policy coherence for sustainable development (%)'
+ 'Proportion of results indicators which will be monitored using government sources and monitoring systems - data by provider (%)'
+ 'Proportion of results indicators which will be monitored using government sources and monitoring systems - data by recipient (%)'
+ 'Proportion of project objectives of new development interventions drawn from country-led result frameworks - data by provider (%)'
+ 'Proportion of project objectives in new development interventions drawn from country-led result frameworks - data by recipient (%)'
+ 'Proportion of results indicators drawn from country-led results frameworks - data by provider (%)'
+ 'Proportion of results indicators drawn from country-led results frameworks - data by recipient (%)'
+ 'Extent of use of country-owned results frameworks and planning tools by providers of development cooperation - data by recipient (%)'
+ 'Extent of use of country-owned results frameworks and planning tools by providers of development cooperation - data by provider (%)'
+ 'Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals, Provider (1 = YES; 0 = NO)'
+ 'Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals, Recipient (1 = YES; 0 = NO)'
+ 'Amount of United States dollars committed to public-private partnerships for infrastructure, million USD nominal'
+ 'Amount of United States dollars committed to public-private partnerships for infrastructure, million USD real'
+ 'Countries with national statistical plans with funding from Government (1 = YES; 0 = NO)'
+ 'Countries with national statistical legislation exists that complies with the Fundamental Principles of Official Statistics (1 = YES; 0 = NO)'
+ 'Countries with national statistical plans with funding from donors (1 = YES; 0 = NO)'
+ 'Countries with national statistical plans with funding from others (1 = YES; 0 = NO)'
+ 'Countries with national statistical plans that are under implementation (1 = YES; 0 = NO)'
+ 'Countries with national statistical plans that are fully funded (1 = YES; 0 = NO)'
+ 'Proportion of countries with birth registration data that are at least 90 percent complete (%)'
+ 'Proportion of countries with death registration data that are at least 75 percent complete (%)'
+ 'Proportion of countries that have conducted at least one population and housing census in the last 10 years (%)'
+ 'Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO)'
+ 'Countries with birth registration data that are at least 90 percent complete (1 = YES; 0 = NO)'
+ 'Countries with death registration data that are at least 75 percent complete (1 = YES; 0 = NO)'
+ 'Dollar value of all resources made available to strengthen statistical capacity in developing countries (current United States dollars)'
+ "Net official development assistance (ODA) to small island states (SIDS) as a percentage of OECD-DAC donors' GNI, by donor countries (%)"
+ "Net official development assistance (ODA) to LDCs as a percentage of OECD-DAC donors' GNI, by donor countries (%)"
+ 'Net official development assistance (ODA) to landlocked developing countries from OECD-DAC countries, by donor countries (millions of constant 2021 United States dollars)'
+ 'Net official development assistance (ODA) to small island states (SIDS) from OECD-DAC countries, by donor countries (millions of constant 2021 United States dollars)'
+ 'Net official development assistance (ODA) to LDCs from OECD-DAC countries, by donor countries (millions of constant 2021 United States dollars)'
+ "Net official development assistance (ODA) to landlocked developing countries as a percentage of OECD-DAC donors' GNI, by donor countries (%)"
+ "Net official development assistance (ODA) as a percentage of OECD-DAC donors' GNI, by donor countries (%)"
+ 'Net official development assistance (ODA) from OECD-DAC countries, by donor countries (millions of constant 2021 United States dollars)'
+ 'Official development assistance (ODA) from OECD-DAC countries on grant equivalent basis, by donor countries (millions of constant 2021 United States dollars)'
+ "Official development assistance (ODA) as a percentage of OECD-DAC donors' GNI on grant equivalent basis, by donor countries (%)"
+ 'Volume of remittances (in United States dollars) as a proportion of total GDP (%)'
+ 'Foreign direct investment (FDI) inflows (millions of United States dollars)'
+ 'Gross receipts by developing countries of official sustainable development grants (millions of United States dollars)'
+ 'Gross receipts by developing countries of official concessional sustainable development loans (millions of United States dollars)'
+ 'Gross receipts by developing countries of official non-concessional sustainable development loans (millions of United States dollars)'
+ 'Gross receipts by developing countries of mobilised private finance (MPF) - on an experimental basis (millions of United States dollars)'
+ 'Gross receipts by developing countries of private grants (millions of United States dollars)'
+ 'Debt service as a proportion of exports of goods and services (%)'
+ 'Number of countries with an outward investment promotion scheme which can benefit developing countries, including LDCs'
+ 'Number of fixed broadband subscriptions, by speed (number)'
+ 'Fixed broadband subscriptions per 100\xa0inhabitants, by speed (per 100 inhabitants)'
+ 'Amount of tracked exported Environmentally Sound Technologies (current United States dollars)'
+ 'Amount of tracked imported Environmentally Sound Technologies (current United States dollars)'
+ 'Amount of tracked re-exported Environmentally Sound Technologies (current United States dollars)'
+ 'Amount of tracked re-imported Environmentally Sound Technologies (current United States dollars)'
+ 'Total investment in Environment Sound Technologies, by sector (current United States dollars)'
+ 'Total trade of tracked Environmentally Sound Technologies (current United States dollars)'
+ 'Proportion of individuals using the Internet (%)'
+ 'Total official development assistance (gross disbursement) for technical cooperation (millions of 2021 United States dollars)']
+Number of records for each "SeriesDescription" : 
+<bound method Series.sort_values of SeriesDescription
+Domestic material consumption, by type of raw material (tonnes)                                                               169174
+Domestic material consumption per capita, by type of raw material (tonnes)                                                    167712
+Domestic material consumption per unit of GDP, by type of raw material (kilograms per constant 2015 United States dollars)    167140
+Completion rate, by sex, location, wealth quintile and education level (%)                                                    136527
+Mountain green cover area (square kilometres)                                                                                  43065
+                                                                                                                               ...  
+Number of least developed countries and small island developing States with adaptation communications (Number)                     2
+Number of countries with nationally determined contributions (Number)                                                              2
+Number of countries with national communications, Annex I Parties (Number)                                                         1
+Number of countries with biennial reports, Annex I Parties (Number)                                                                1
+Number of countries with national adaptation plans (Number)                                                                        1
+Name: count, Length: 662, dtype: int64> 
+
+Field: "SeriesObservationCount" 
+Count of Unique Values: 491
+[  9775  29280   1113   2548    271    133     44     66    279    148
+    874    836    358   1191    350    372    411    711    460   1097
+  15654  15663     64     22   1457   1485   1685   1771   1776   1570
+   1413   1284    881    628    645    653    665   1452    593    964
+    702    726      9   2809   2966    637    682   4750   6359   5702
+   4485    770   4508   4540   2193   2489   2227   2470      2    120
+     76     84     24     60     68     75     80     42    135   5352
+   3240   5328   1824   4440   3264   5520   4683   3924   1366   1672
+   2483    693   3275   4725  13200  15840   4400   5280  42261   3388
+   2472   5164    321   2880   3060  12180   3423    570   2865    948
+   5474   1058   1624    212    215    219   3633   2113   3791   5151
+   3287   1884     39   8646   1834  34816    474   4918 136527   7987
+    275  15974  29663   2634   5603   5253   2751    950   1134   1389
+   1219   1050  16980   9802  25130     82    267    294   3151   2563
+   3169   2394   2928   2273    847   2818  18107    293    360    209
+     45    205   2561   2588   2794   3137   1375   5483    707    401
+   1174    883    125    185   2835    938    368   1116    142   9317
+   5172   9999  15522    137    167    106    180    319    616     90
+     56  16800  16485    497    407    227    438    437     28     87
+    144   6369   6086   4503   4554    278    273   3400   1556   1397
+   3783    414    529    320  14190  16566   5649  32032  18854   5426
+   2972   5849   3141    626    635   5405  11482   5189     20  84587
+  83570  83856  30361  24764   6488  11550   5282   7532   2736    312
+    310   3577   3618   1563   1093    457    435   2885   3069    363
+   1560   1399     26   1936    168   5728   3291   5479   1294    885
+    342   8022   3815   3969   1946   2351   3951   4032   3953   2537
+   1922    238   1874   4651   3995    675   1856   1893   1828   1790
+   1890   1777   1491  13547    532   1750   6049   2538      6  14621
+    949   3270    725    755   2196    336   1186   1669   2042    329
+     58     48     37    873    781    807    389    875    779    775
+    466  12520   4361    962     43    265    153    340   1014    105
+    469    376    439    440    111   1151   1031   2959    445    802
+    918   1800    898    580     88   5624    491    446   4638    316
+    287    500    486   1224   4839     30   2363   2321   2361   2529
+   2528   2505   1290    576      5      1     50     10      7      4
+   1056   4132   3465    611      3    900     33   1291    425    543
+   2740    159    573     63   2296   2192   1944   3157   1392   1656
+    332  43065   3915   1566   8184   3197    562    629   2969    780
+    585    304     54     14    564    302   3394   8552   9429    216
+    657    158    449      8     96    147    100   2883   2027   3538
+  11383   3503    154    284     15     21    384    343   2214    255
+    250    210    299    820   5039    347    463   2344    517    531
+    264    272    107    116     59    821    207    690     77    953
+   3784   3737   3793  10782   5573   3938   3944  19213   1832   7755
+   7320   4650   6939  11528   8420   5050  10202  11889   7978   7504
+   8136   8406   9774  12018   6793   4965   8066   1163     49    189
+     57     92   2704   2625   1132    173   1244   1216   2150    669
+    659    512    704    155    150   7778   7668    545    519    515
+    924    935   5226   8683   9038   2133   2156    618   2206   7527
+   3988]
+Number of records for each "SeriesObservationCount" : 
+<bound method Series.sort_values of SeriesObservationCount
+84587     169174
+83856     167712
+83570     167140
+136527    136527
+43065      86130
+           ...  
+7              7
+5              5
+4              4
+1              3
+3              3
+Name: count, Length: 491, dtype: int64> 
+
+Field: "GeoAreaCode" 
+Count of Unique Values: 415
+[    1     2     5     8     9    11    12    13    14    15    17    18
+    19    21    24    29    30    31    32    34    35    36    39    40
+    50    51    53    54    56    62    64    68    70    72    76    84
+    90   100   104   108   112   120   124   132   135   140   142   143
+   144   145   148   150   151   152   154   155   156   170   174   178
+   180   188   191   196   199   202   203   204   208   214   218   222
+   231   233   242   246   250   262   266   268   270   275   276   288
+   296   300   320   324   328   332   340   348   352   356   360   364
+   368   372   376   380   384   388   392   398   400   404   410   417
+   418   419   422   426   428   430   432   440   442   450   454   458
+   462   466   470   478   480   484   485   496   498   499   504   508
+   513   514   515   516   518   520   524   528   543   548   558   562
+   566   578   583   584   586   591   598   600   604   608   616   620
+   624   626   642   643   646   662   678   686   688   690   694   703
+   704   705   710   716   722   724   728   729   738   740   746   747
+   748   752   753   756   760   762   764   768   776   780   784   788
+   792   795   798   800   804   807   818   826   834   840   854   858
+   860   862   882   887   894   116   127   223   706     4   226   232
+   585   412    28    44    61    96   158   192   212   308   438   533
+   554   659   660   666   670   674   702   736   796    48    60   184
+   254   312   474   630   663   682   850    20    52    92   136   344
+   414   434   446   531   534   540   634   833   512    16    57   175
+   234   238   258   292   304   316   408   492   500   535   570   580
+   638   652   654   772   830   876   336   901   903   904   905   906
+   917   919   921    97   248   530   891   732   831   832    86   162
+   166   239   260   334   574   581   612   744    74 99035 99036 99037
+ 99038 99039 99040 99049 99050   890   487   527   636   951   420    10
+   680   918 99051 99052 99053 99054 99055 99056 99057 99058 99059 99060
+ 99061 99062 99063 99064 99065 99066 99067 99068 99069 99070 99071 99072
+ 99073 99074 99075 99076 99077 99078 99079 99080 99081 99082 99083 99084
+ 99085 99086 99087 99088 99089 99090 99091 99092 99093 99094 99095 99096
+ 99097 99098 99099 99100 99101 99102 99103 99104 99105 99106 99107 99108
+ 99109 99110 99111 99112 99113 99114 99115 99116 99018 99019 99020 99021
+ 99022 99023 99024 99025 99026 99027 99028 99029 99030 99031 99032   369
+   370   827   828   829   593 99041   952]
+Number of records for each "GeoAreaCode" : 
+<bound method Series.sort_values of GeoAreaCode
+170      20189
+484      19829
+604      18750
+188      18181
+76       17658
+         ...  
+99025       11
+99024       11
+99023       11
+99031       11
+10           9
+Name: count, Length: 415, dtype: int64> 
+
+Field: "GeoAreaName" 
+Count of Unique Values: 415
+['World' 'Africa' 'South America' 'Albania' 'Oceania' 'Western Africa'
+ 'Algeria' 'Central America' 'Eastern Africa' 'Northern Africa'
+ 'Middle Africa' 'Southern Africa' 'Americas' 'Northern America' 'Angola'
+ 'Caribbean' 'Eastern Asia' 'Azerbaijan' 'Argentina' 'Southern Asia'
+ 'South-Eastern Asia' 'Australia' 'Southern Europe' 'Austria' 'Bangladesh'
+ 'Armenia' 'Australia and New Zealand' 'Melanesia' 'Belgium'
+ 'Central and Southern Asia' 'Bhutan' 'Bolivia (Plurinational State of)'
+ 'Bosnia and Herzegovina' 'Botswana' 'Brazil' 'Belize' 'Solomon Islands'
+ 'Bulgaria' 'Myanmar' 'Burundi' 'Belarus' 'Cameroon' 'Canada' 'Cabo Verde'
+ 'Caucasus and Central Asia' 'Central African Republic' 'Asia'
+ 'Central Asia' 'Sri Lanka' 'Western Asia' 'Chad' 'Europe'
+ 'Eastern Europe' 'Chile' 'Northern Europe' 'Western Europe' 'China'
+ 'Colombia' 'Comoros' 'Congo' 'Democratic Republic of the Congo'
+ 'Costa Rica' 'Croatia' 'Cyprus' 'Least Developed Countries (LDCs)'
+ 'Sub-Saharan Africa' 'Czechia' 'Benin' 'Denmark' 'Dominican Republic'
+ 'Ecuador' 'El Salvador' 'Ethiopia' 'Estonia' 'Fiji' 'Finland' 'France'
+ 'Djibouti' 'Gabon' 'Georgia' 'Gambia' 'State of Palestine' 'Germany'
+ 'Ghana' 'Kiribati' 'Greece' 'Guatemala' 'Guinea' 'Guyana' 'Haiti'
+ 'Honduras' 'Hungary' 'Iceland' 'India' 'Indonesia'
+ 'Iran (Islamic Republic of)' 'Iraq' 'Ireland' 'Israel' 'Italy'
+ "Côte d'Ivoire" 'Jamaica' 'Japan' 'Kazakhstan' 'Jordan' 'Kenya'
+ 'Republic of Korea' 'Kyrgyzstan' "Lao People's Democratic Republic"
+ 'Latin America and the Caribbean' 'Lebanon' 'Lesotho' 'Latvia' 'Liberia'
+ 'Landlocked developing countries (LLDCs)' 'Lithuania' 'Luxembourg'
+ 'Madagascar' 'Malawi' 'Malaysia' 'Maldives' 'Mali' 'Malta' 'Mauritania'
+ 'Mauritius' 'Mexico'
+ 'Western Asia (exc. Armenia, Azerbaijan, Cyprus, Israel and Georgia)'
+ 'Mongolia' 'Republic of Moldova' 'Montenegro' 'Morocco' 'Mozambique'
+ 'Europe and Northern America'
+ 'Developed regions (Europe, Cyprus, Israel, Northern America, Japan, Australia & New Zealand)'
+ 'Developing regions' 'Namibia' 'Eastern Asia (excluding Japan)' 'Nauru'
+ 'Nepal' 'Netherlands (Kingdom of the)'
+ 'Oceania (exc. Australia and New Zealand)' 'Vanuatu' 'Nicaragua' 'Niger'
+ 'Nigeria' 'Norway' 'Micronesia (Federated States of)' 'Marshall Islands'
+ 'Pakistan' 'Panama' 'Papua New Guinea' 'Paraguay' 'Peru' 'Philippines'
+ 'Poland' 'Portugal' 'Guinea-Bissau' 'Timor-Leste' 'Romania'
+ 'Russian Federation' 'Rwanda' 'Saint Lucia' 'Sao Tome and Principe'
+ 'Senegal' 'Serbia' 'Seychelles' 'Sierra Leone' 'Slovakia' 'Viet Nam'
+ 'Slovenia' 'South Africa' 'Zimbabwe'
+ 'Small island developing States (SIDS)' 'Spain' 'South Sudan' 'Sudan'
+ 'Sub-Saharan Africa (inc. Sudan)' 'Suriname'
+ 'Northern Africa (exc. Sudan)' 'Northern Africa and Western Asia'
+ 'Eswatini' 'Sweden' 'Eastern and South-Eastern Asia' 'Switzerland'
+ 'Syrian Arab Republic' 'Tajikistan' 'Thailand' 'Togo' 'Tonga'
+ 'Trinidad and Tobago' 'United Arab Emirates' 'Tunisia' 'Türkiye'
+ 'Turkmenistan' 'Tuvalu' 'Uganda' 'Ukraine' 'North Macedonia' 'Egypt'
+ 'United Kingdom of Great Britain and Northern Ireland'
+ 'United Republic of Tanzania' 'United States of America' 'Burkina Faso'
+ 'Uruguay' 'Uzbekistan' 'Venezuela (Bolivarian Republic of)' 'Samoa'
+ 'Yemen' 'Zambia' 'Cambodia' 'Southern Asia (excluding India)'
+ 'Eastern Asia (excluding Japan and China)' 'Somalia' 'Afghanistan'
+ 'Equatorial Guinea' 'Eritrea' 'Palau' 'Kosovo' 'Antigua and Barbuda'
+ 'Bahamas' 'Polynesia' 'Brunei Darussalam'
+ 'Other non-specified areas in Eastern Asia' 'Cuba' 'Dominica' 'Grenada'
+ 'Liechtenstein' 'Aruba' 'New Zealand' 'Saint Kitts and Nevis' 'Anguilla'
+ 'Saint Pierre and Miquelon' 'Saint Vincent and the Grenadines'
+ 'San Marino' 'Singapore' 'Sudan [former]' 'Turks and Caicos Islands'
+ 'Bahrain' 'Bermuda' 'Cook Islands' 'French Guiana' 'Guadeloupe'
+ 'Martinique' 'Puerto Rico' 'Saint Martin (French Part)' 'Saudi Arabia'
+ 'United States Virgin Islands' 'Andorra' 'Barbados'
+ 'British Virgin Islands' 'Cayman Islands'
+ 'China, Hong Kong Special Administrative Region' 'Kuwait' 'Libya'
+ 'China, Macao Special Administrative Region' 'Curaçao'
+ 'Sint Maarten (Dutch part)' 'New Caledonia' 'Qatar' 'Isle of Man' 'Oman'
+ 'American Samoa' 'Micronesia' 'Mayotte' 'Faroe Islands'
+ 'Falkland Islands (Malvinas)' 'French Polynesia' 'Gibraltar' 'Greenland'
+ 'Guam' "Democratic People's Republic of Korea" 'Monaco' 'Montserrat'
+ 'Bonaire, Sint Eustatius and Saba' 'Niue' 'Northern Mariana Islands'
+ 'Réunion' 'Saint Barthélemy' 'Saint Helena' 'Tokelau' 'Channel Islands'
+ 'Wallis and Futuna Islands' 'Holy See' 'Africa (ILO)'
+ 'Central and Eastern Europe (ILO)' 'Middle East and North Africa (ILO)'
+ 'Middle East (ILO)' 'North America (ILO)' 'International Centers (FAO)'
+ 'Regional Centres (FAO)' 'ODA residual' 'European Union' 'Åland Islands'
+ 'Netherlands Antilles  [former]' 'Serbia and Montenegro [former]'
+ 'Western Sahara' 'Guernsey' 'Jersey' 'British Indian Ocean Territory'
+ 'Christmas Island' 'Cocos (Keeling) Islands'
+ 'South Georgia and the South Sandwich Islands'
+ 'French Southern Territories' 'Heard Island and McDonald Islands'
+ 'Norfolk Island' 'United States Minor Outlying Islands' 'Pitcairn'
+ 'Svalbard and Jan Mayen Islands' 'Bouvet Island'
+ 'Residual/unallocated ODA: Central Asia and Southern Asia'
+ 'Residual/unallocated ODA: Eastern and South-eastern Asia'
+ 'Residual/unallocated ODA: Latin America and the Caribbean'
+ 'Residual/unallocated ODA: Oceania excl. Aus. and N. Zealand'
+ 'Residual/unallocated ODA: Sub-Saharan Africa'
+ 'Residual/unallocated ODA: Western Asia and Northern Africa'
+ 'Residual/unallocated ODA: Unspecified, developing countries'
+ 'Residual/unallocated ODA: Northern America and Europe'
+ 'Yugoslavia [former]' 'Other non-OECD Asia' 'Other non-OECD Oceania'
+ 'Other non-OECD Americas' 'Other Africa (IEA)' 'Latin America'
+ 'Antarctica' 'Sark' 'European Union (EU) Institutions'
+ 'Large Marine Ecosystem: East Bering Sea'
+ 'Large Marine Ecosystem: Gulf of Alaska'
+ 'Large Marine Ecosystem: California Current'
+ 'Large Marine Ecosystem: Gulf of California'
+ 'Large Marine Ecosystem: Gulf of Mexico'
+ 'Large Marine Ecosystem: Southeast U.S. Continental Shelf'
+ 'Large Marine Ecosystem: Northeast U.S. Continental Shelf'
+ 'Large Marine Ecosystem: Scotian Shelf'
+ 'Large Marine Ecosystem: Labrador - Newfoundland'
+ 'Large Marine Ecosystem: Insular Pacific-Hawaiian'
+ 'Large Marine Ecosystem: Pacific Central-American Coastal'
+ 'Large Marine Ecosystem: Caribbean Sea'
+ 'Large Marine Ecosystem: Humboldt Current'
+ 'Large Marine Ecosystem: Patagonian Shelf'
+ 'Large Marine Ecosystem: South Brazil Shelf'
+ 'Large Marine Ecosystem: East Brazil Shelf'
+ 'Large Marine Ecosystem: North Brazil Shelf'
+ 'Large Marine Ecosystem: Canadian Eastern Arctic - West Greenland'
+ 'Large Marine Ecosystem: Greenland Sea'
+ 'Large Marine Ecosystem: Barents Sea'
+ 'Large Marine Ecosystem: Norwegian Sea'
+ 'Large Marine Ecosystem: North Sea' 'Large Marine Ecosystem: Baltic Sea'
+ 'Large Marine Ecosystem: Celtic-Biscay Shelf'
+ 'Large Marine Ecosystem: Iberian Coastal'
+ 'Large Marine Ecosystem: Mediterranean Sea'
+ 'Large Marine Ecosystem: Canary Current'
+ 'Large Marine Ecosystem: Guinea Current'
+ 'Large Marine Ecosystem: Benguela Current'
+ 'Large Marine Ecosystem: Agulhas Current'
+ 'Large Marine Ecosystem: Somali Coastal Current'
+ 'Large Marine Ecosystem: Arabian Sea' 'Large Marine Ecosystem: Red Sea'
+ 'Large Marine Ecosystem: Bay of Bengal'
+ 'Large Marine Ecosystem: Gulf of Thailand'
+ 'Large Marine Ecosystem: South China Sea'
+ 'Large Marine Ecosystem: Sulu-Celebes Sea'
+ 'Large Marine Ecosystem: Indonesian Sea'
+ 'Large Marine Ecosystem: North Australian Shelf'
+ 'Large Marine Ecosystem: Northeast Australian Shelf'
+ 'Large Marine Ecosystem: East Central Australian Shelf'
+ 'Large Marine Ecosystem: Southeast Australian Shelf'
+ 'Large Marine Ecosystem: South West Australian Shelf'
+ 'Large Marine Ecosystem: West Central Australian Shelf'
+ 'Large Marine Ecosystem: Northwest Australian Shelf'
+ 'Large Marine Ecosystem: New Zealand Shelf'
+ 'Large Marine Ecosystem: East China Sea'
+ 'Large Marine Ecosystem: Yellow Sea'
+ 'Large Marine Ecosystem: Kuroshio Current'
+ 'Large Marine Ecosystem: Sea of Japan'
+ 'Large Marine Ecosystem: Oyashio Current'
+ 'Large Marine Ecosystem: Sea of Okhotsk'
+ 'Large Marine Ecosystem: West Bering Sea'
+ 'Large Marine Ecosystem: Northern Bering - Chukchi Seas'
+ 'Large Marine Ecosystem: Beaufort Sea'
+ 'Large Marine Ecosystem: East Siberian Sea'
+ 'Large Marine Ecosystem: Laptev Sea' 'Large Marine Ecosystem: Kara Sea'
+ 'Large Marine Ecosystem: Iceland Shelf and Sea'
+ 'Large Marine Ecosystem: Faroe Plateau'
+ 'Large Marine Ecosystem: Antarctica' 'Large Marine Ecosystem: Black Sea'
+ 'Large Marine Ecosystem: Hudson Bay Complex'
+ 'Large Marine Ecosystem: Central Arctic'
+ 'Large Marine Ecosystem: Aleutian Islands'
+ 'Large Marine Ecosystem: Canadian High Arctic - North Greenland'
+ 'FAO Major Fishing Area: Pacific, Eastern Central'
+ 'FAO Major Fishing Area: Pacific, Northeast'
+ 'FAO Major Fishing Area: Pacific, Northwest'
+ 'FAO Major Fishing Area: Pacific, Western Central'
+ 'FAO Major Fishing Area: Pacific, Southwest'
+ 'FAO Major Fishing Area: Atlantic, Northwest'
+ 'FAO Major Fishing Area: Atlantic, Northeast'
+ 'FAO Major Fishing Area: Indian Ocean, Eastern'
+ 'FAO Major Fishing Area: Atlantic, Southeast'
+ 'FAO Major Fishing Area: Indian Ocean, Western'
+ 'FAO Major Fishing Area: Atlantic, Western Central'
+ 'FAO Major Fishing Area: Atlantic, Eastern Central'
+ 'FAO Major Fishing Area: Atlantic, Southwest'
+ 'FAO Major Fishing Area: Pacific, Southeast'
+ 'FAO Major Fishing Area: Mediterranean and Black Sea'
+ 'Iraq (Central Iraq)' 'Iraq (Kurdistan Region)'
+ 'United Kingdom (England and Wales)' 'United Kingdom (Northern Ireland)'
+ 'United Kingdom (Scotland)'
+ 'Development Assistance Committee members (DAC)' 'Belgium and Luxembourg'
+ 'Unallocated by country']
+Number of records for each "GeoAreaName" : 
+<bound method Series.sort_values of GeoAreaName
+Colombia                                         20189
+Mexico                                           19829
+Peru                                             18750
+Costa Rica                                       18181
+Brazil                                           17658
+                                                 ...  
+FAO Major Fishing Area: Indian Ocean, Eastern       11
+FAO Major Fishing Area: Atlantic, Northeast         11
+FAO Major Fishing Area: Atlantic, Northwest         11
+FAO Major Fishing Area: Pacific, Southeast          11
+Antarctica                                           9
+Name: count, Length: 415, dtype: int64> 
+
+Field: "TimePeriod" 
+Count of Unique Values: 64
+[1981 1982 1983 1984 1985 1986 1987 1988 1989 1990 1991 1992 1993 1994
+ 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008
+ 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 1980
+ 1971 1975 1970 1979 1977 2022 1968 1969 1972 1973 1974 1976 1978 2023
+ 1961 1962 1963 1964 1965 1966 1967 1960]
+Number of records for each "TimePeriod" : 
+<bound method Series.sort_values of TimePeriod
+2018    176948
+2019    165565
+2015    163135
+2017    149147
+2010    146441
+         ...  
+1964       928
+1963       917
+1962       899
+1961       870
+1960       409
+Name: count, Length: 64, dtype: int64> 
+
+Field: "Value" 
+Count of Unique Values: 811415
+['43.6' '43.2' '42.5' ... '8535.82114' '8033.91004' '7862.80419']
+Number of records for each "Value" : 
+<bound method Series.sort_values of Value
+0             220119
+100            41019
+1              30790
+N               8870
+99              8339
+               ...  
+1422.3             1
+1456.7             1
+1569.4             1
+1601.3             1
+7862.80419         1
+Name: count, Length: 811415, dtype: int64> 
+
+Field: "ValueType" 
+Count of Unique Values: 2
+['Float' 'String']
+Number of records for each "ValueType" : 
+<bound method Series.sort_values of ValueType
+Float     2648570
+String      19649
+Name: count, dtype: int64> 
+
+Field: "Time_Detail" 
+Count of Unique Values: 396
+['1981' '1982' '1983' '1984' '1985' '1986' '1987' '1988' '1989' '1990'
+ '1991' '1992' '1993' '1994' '1995' '1996' '1997' '1998' '1999' '2000'
+ '2001' '2002' '2003' '2004' '2005' '2006' '2007' '2008' '2009' '2010'
+ '2011' '2012' '2013' '2014' '2015' '2016' '2017' '2018' '2019' '2020'
+ '2021' '1980' '1971' '1975' '1970' '1979' '1977' '2022' '1968' '1969'
+ '1972' '1973' '1974' '1976' '1978' '2015-2022' '2000-2002' '2001-2003'
+ '2002-2004' '2003-2005' '2004-2006' '2005-2007' '2006-2008' '2007-2009'
+ '2008-2010' '2009-2011' '2010-2012' '2011-2013' '2012-2014' '2013-2015'
+ '2014-2016' '2015-2017' '2016-2018' '2017-2019' '2018-2020' '2019-2021'
+ '2020-2022' '2021-2023' '2004 (2004)' '2013 (2013)' '2018 (2018)'
+ '2005 (2005)' '2008-2009 (2009)' '2017-2018 (2017)' '2000 (2000)'
+ '2002 (2002)' '2006 (2006)' '2012-2013 (2012)' '2018-2019 (2019)'
+ '2007 (2007)' '2015-2016 (2015)' '2001 (2001)' '2011 (2011)'
+ '2004-2005 (2005)' '2018-2019 (2018)' '1999-2000 (2000)'
+ '2001-2002 (2001)' '2003-2004 (2003)' '2012 (2012)' '2012-2013 (2013)'
+ '2014 (2014)' '2015 (2015)' '2017-2018 (2018)' '2019 (2019)'
+ '2010 (2010)' '2015-2016 (2016)' '2014-2015 (2014)' '2008 (2008)'
+ '2016 (2016)' '2011-2012 (2012)' '2007-2008 (2007)' '2006-2007 (2007)'
+ '2019-2020 (2019)' '2009 (2009)' '2003 (2003)' '2009-2010 (2009)'
+ '2010-2011 (2010)' '2016-2017 (2016)' '2020 (2020)' '2022 (2022)'
+ '2005-2006 (2005)' '2021-2022 (2021)' '2014-2015 (2015)' '2017 (2017)'
+ '2021 (2021)' '2016-2017 (2017)' '2009-2010 (2010)' '2011-2012 (2011)'
+ '2013-2014 (2013)' '2008-2009 (2008)' '2005-2006 (2006)'
+ '2013-2014 (2014)' '2002-2003 (2003)' '2010-2011 (2011)'
+ '2013-2015 (2014)' '2000-2001 (2000)' '2020-2021 (2020)'
+ '2019-2020 (2020)' '2006-2007 (2006)' '2003-2006 (2004)'
+ '2014-2017 (2016)' '2016-2018 (2017)' '2019-2021 (2020)'
+ '2007-2009 (2008)' '2010-2012 (2011)' '2004-2005 (2004)'
+ '2020-2021 (2021)' '2003-2004 (2004)' '2000-2001 (2001)'
+ '2007-2008 (2008)' '2003-2005 (2004)' '2009-2011 (2010)'
+ '2008-2012 (2010)' '2012-2014 (2013)' '2014-2016 (2015)'
+ '2016-2019 (2017)' '2001-2002 (2002)' '2023' '2010 - 2011' '2011 - 2012'
+ '2013 - 2014' '2016 - 2017' '2019 - 2020' '2008 - 2009' '2017 - 2018'
+ '2012 - 2013' '2018 - 2019' '2006 - 2007' '2015 - 2016' '1995 - 1996'
+ '1993 - 1994' '1996 - 1997' '1999 - 2000' '2003 - 2004' '2009 - 2010'
+ '1994 - 1995' '2005 - 2006' '2021 - 2022' '2014 - 2015' '2004 - 2005'
+ '2002 - 2003' '2000 - 2001' '1998 - 1999' '2007 - 2008' '1991 - 1992'
+ '1992 - 1993' '2019 - 2021' '2013 - 2015' '2001 - 2003' '1990 - 1991'
+ '2001 - 2002' '2016 - 2018' '2004 - 2006' '2012 - 2014' '2020 - 2021'
+ '2010 - 2013' '2015-2016' '2008-2009' '2017-2018' '2012-2013' '2018-2019'
+ '2019-2020' '2003-2004' '2011-2012' '2007-2008' '2006-2007' '2010-2011'
+ '2016-2017' '2005-2006' '2014-2015' '2004-2005' '2009-2010' '2013-2014'
+ '2002-2003' '2000-2001' '2020-2021' '2001-2002' 'Q1 2016 - Q4 2016'
+ 'Q1 2017 - Q4 2017' 'Q1 2018 - Q4 2018' 'Q1 2019 - Q4 2019'
+ 'Q1 2020 - Q4 2020' 'Q1 2021 - Q4 2021' '2014-22' '2018-19' '2019-20'
+ '2011-12' '2015-16' '2016-17' '2014-15' '2017-18' '2020-21' '2021-22'
+ '2017-2020' '2000-2018' '2019-21' '2016-18' '1998-2000' '1999-2000'
+ '2021-2022' '2009-2016' '2016-2021' '2011-2016' '2010-2016' '2000-2015'
+ '2020-2020' '2010-2013' '2010-2019' '2014-2014' '2009-2012' '2015-2019'
+ '2010-2015' '2013-2018' '2012-2015' '2019-2019' '1990-2017' '2016-2016'
+ '2008-2016' '2009-2013' '2006-2019' '2005-2016' '2006-2013' '2014-2019'
+ '2017-2017' '2018-2018' '2014-2017' '2014-2020' '2015-2015' '1996-2017'
+ '1998-2002' '2003-2007' '2008-2012' '2013-2017' '2018-2022' '2011-2015'
+ '1973-2016' '1984-1999' '2012-2016' '1990-2000' '1972-2017' '1931-2016'
+ '1970-2010' '2001-2017' '2007-2015' '1961-2009' '2018-2021' '1995-1999'
+ '1996-2000' '1997-2001' '1999-2003' '2000-2004' '2001-2005' '2002-2006'
+ '2004-2008' '2005-2009' '2006-2010' '2007-2011' '2010-2014' '2014-2018'
+ '2016-2020' '2017-2021' '2016-20' '2013-14' '2002-2005' '2002-05 avg.'
+ '2006-2022' '2009-2018' '2009-2015' '2006-2018' '2010-2017' '2009-2022'
+ '2010-2020' '2012-2019' '2011-2022' '2015-2021' '2009-2009' '2013-2022'
+ '2009-2020' '2006-2021' '2012-2021' '2006-07' '31 December 2000'
+ '31 December 2001' '31 December 2002' '31 December 2003'
+ '31 December 2004' '31 December 2005' '31 December 2006'
+ '31 December 2007' '31 December 2008' '31 December 2009'
+ '31 December 2010' '31 December 2011' '31 December 2012'
+ '31 December 2013' '31 December 2014' '31 December 2015'
+ '31 December 2016' '31 December 2017' '31 December 2018'
+ '31 December 2019' '31 December 2020' '31 December 2021' '30 June 2022'
+ 'October-November 2019' '2000 - 2010' '2010 - 2020' '2001 - 2010'
+ '2010 - 2018' '1991 - 2001' '2001 - 2011' '2003 - 2015' '2006 - 2012'
+ '2012 - 2018' '2002 - 2013' '2010 - 2015' '2015 - 2020' '2013 - 2016'
+ '2016 - 2019' '2015 - 2018' '2009 - 2014' '2014 - 2019' '1995 - 2007'
+ '2007 - 2016' '2014 - 2021' '2010-2018' '2010-2021' '2022-2023'
+ '2000-2010' '2016-2019' '2015-2018' '2010-2022' '2013-2021' '2012-2022'
+ '2016-2022' '2019-2022' '2014-2021' '2014-2022' '2017-2022' '2011-2021'
+ '2014-2027' '2922' '2022-02' '2014-21' '2008-09' '2010-11' '2006-2020'
+ '2013-22' '1961' '1962' '1963' '1964' '1965' '1966' '1967' '1960']
+Number of records for each "Time_Detail" : 
+<bound method Series.sort_values of Time_Detail
+2018           166370
+2019           154557
+2015           152348
+2010           140308
+2017           139164
+                ...  
+2009-2022           1
+2006-2018           1
+1995 - 2007         1
+2007 - 2016         1
+2001 - 2010         1
+Name: count, Length: 396, dtype: int64> 
+
+Field: "TimeCoverage" 
+Count of Unique Values: 0
+[nan]
+Number of records for each "TimeCoverage" : 
+<bound method Series.sort_values of Series([], Name: count, dtype: int64)> 
+
+Field: "UpperBound" 
+Count of Unique Values: 44610
+[nan '22.1' '21.1' ... '18751' '17351' '1477']
+Number of records for each "UpperBound" : 
+<bound method Series.sort_values of UpperBound
+>95        7004
+N          4301
+0          2687
+<5          814
+6           364
+           ... 
+4.02779       1
+8.95828       1
+6.78782       1
+6.42016       1
+1477          1
+Name: count, Length: 44610, dtype: int64> 
+
+Field: "LowerBound" 
+Count of Unique Values: 42079
+[nan '20.4' '19.4' ... '88.6' '254.3' '225.4']
+Number of records for each "LowerBound" : 
+<bound method Series.sort_values of LowerBound
+N          4301
+>95        4202
+0          3240
+<5         3104
+0.1         538
+           ... 
+3.69635       1
+3.37223       1
+1.88666       1
+1.69312       1
+225.4         1
+Name: count, Length: 42079, dtype: int64> 
+
+Field: "BasePeriod" 
+Count of Unique Values: 4
+[2017.   nan 2021. 2020. 2015.]
+Number of records for each "BasePeriod" : 
+<bound method Series.sort_values of BasePeriod
+2015.0    188758
+2021.0     41832
+2020.0     34657
+2017.0     29300
+Name: count, dtype: int64> 
+
+Field: "Source" 
+Count of Unique Values: 10073
+['Poverty and Inequality Portal, World Bank'
+ 'Source = ILO modelled estimates, Nov. 2022'
+ 'Poverty and Inequality Platform, World Bank' ...
+ 'Samoa Communications Ltd.'
+ 'Ministry of Telecommunications and Information Technology.' 'ZICTA.']
+Number of records for each "Source" : 
+<bound method Series.sort_values of Source
+WESR / Global Material Flows Database                                                                                                                                                                                                                                                                                                                                                                                      500380
+Food and Agriculture Organization of the United Nations (FAO)                                                                                                                                                                                                                                                                                                                                                              107558
+WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene (2023)                                                                                                                                                                                                                                                                                                                                       71327
+United Nations Office for Disaster Risk Reduction (2023)                                                                                                                                                                                                                                                                                                                                                                    71311
+Global Surface Water Explorer extraction for UN Environment Programme                                                                                                                                                                                                                                                                                                                                                       69181
+                                                                                                                                                                                                                                                                                                                                                                                                                            ...  
+Suivi da la Situation des Enfants et des Femmes. Résultats de l'enquête nationale à indicateurs multiples couplée avec la sérologie VIH et anémie en RCA 2006. Rapport final. Bangui: Ministère du Plan, de l'Economie et de la Coopération International, Institut Centrafricain des Statistiques, et des Etudes Economiques et Sociales (ICASEES), Fonds des Nations Unies pour l'Enfance (UNICEF); 2009 (in French).         1
+Ministère du Plan, de l'Economie et de la Coopération International, Fonds des Nations Unies pour l'Enfance (UNICEF). Enquête à indicateurs multiples en Republique Central Africaine 2000. Rapport Final. Bangui, Republic Central Africaine; 2001.                                                                                                                                                                            1
+Ndamobissi R, Mboup G, Nguélébé EO. Enquête Démographique et de Santé, République Centrafricaine 1994-95. Calverton, Maryland, USA: Direction des Statistiques Démographiques et Sociales et Macro International Inc.; 1995 (in French).                                                                                                                                                                                        1
+Instituto Nacional de Estatística (INE), Ministério da Saúde e da Segurança Social, e Utica International. 2020. Inquérito Demográfico e de Saúde Reprodutiva, IDSR-III, Cabo Verde 2018. Praia, Cabo Verde e Columbia, Maryland, USA.                                                                                                                                                                                          1
+ZICTA.                                                                                                                                                                                                                                                                                                                                                                                                                          1
+Name: count, Length: 10073, dtype: int64> 
+
+Field: "GeoInfoUrl" 
+Count of Unique Values: 0
+[nan]
+Number of records for each "GeoInfoUrl" : 
+<bound method Series.sort_values of Series([], Name: count, dtype: int64)> 
+
+Field: "FootNote" 
+Count of Unique Values: 8409
+['Accessed March 21, 2023'
+ 'Accessed March 21, 2023. Based on data from EWS. Estimated from unit-record consumption data. '
+ 'Accessed March 21, 2023. Based on data from LSMS. Estimated from unit-record consumption data. '
+ ... "Estimated based on Survey's results. Population age 6+."
+ 'Preliminary. Country estimate.' 'ICT survey. Population age 11+']
+Number of records for each "FootNote" : 
+<bound method Series.sort_values of FootNote
+FAO estimate                                                                                                                                                                                                                                                                                                                                    79326
+Disclaimer: the data being submitted by UNDRR has been extracted from two sources: (a) the Sendai Framework Monitoring System as provided by designated national focal points; and (b) Desinventar disaster loss databases. Some of the data has not followed an official validation process and may be subject to revision at a later date.    51723
+NaN = A figure was not provided                                                                                                                                                                                                                                                                                                                 38162
+Commitments by recipient country, in million USD at 2020 prices and exchange rates (using donor country deflators). The aggregated figures only include the historical list of developing countries with a few modifications to account for the shifting nature of international public finance.                                                32032
+Repository: ILO-STATISTICS - Micro data processing                                                                                                                                                                                                                                                                                              29680
+                                                                                                                                                                                                                                                                                                                                                ...  
+Mooring Name: 31F/460/20VD | LATITUDE: -49.787 | LONGITUDE: -74.358                                                                                                                                                                                                                                                                                 1
+Mooring Name: 31E/460/20VD | LATITUDE: -49.787 | LONGITUDE: -74.358                                                                                                                                                                                                                                                                                 1
+Mooring Name: 31D/460/20VD | LATITUDE: -49.787 | LONGITUDE: -74.358                                                                                                                                                                                                                                                                                 1
+Mooring Name: 31C/460/20VD | LATITUDE: -49.787 | LONGITUDE: -74.358                                                                                                                                                                                                                                                                                 1
+ICT survey. Population age 11+                                                                                                                                                                                                                                                                                                                      1
+Name: count, Length: 8409, dtype: int64> 
+
+Field: "ObservationID" 
+Count of Unique Values: 2317558
+[15409200 15404848 15404849 ... 15825184 15825186 15825188]
+Number of records for each "ObservationID" : 
+<bound method Series.sort_values of ObservationID
+16608478    3
+16607452    3
+16608064    3
+16607428    3
+16607431    3
+           ..
+13275856    1
+13268201    1
+13269280    1
+13281080    1
+15825188    1
+Name: count, Length: 2317558, dtype: int64> 
+
+Field: "Age" 
+Count of Unique Values: 72
+['ALLAGE' '<15Y' '65+' '15-64' '15+' '15-24' '25+' nan '<18Y' '<16Y'
+ '<10Y' '<6Y' '<5Y' '15-49' '<1Y' '<1M' '50+' '30-70' '15-19' '10-14'
+ 'M36T59' 'M24T59' 'M36T47' '25-54' '55-64' '25-74' '75+' '16-65' '20-24'
+ '10+' '12+' '25-44' '45-54' '20-74' '12-24' '85+' '25-34' '35-44' '65-74'
+ '75-84' '45-64' '3+' '12-14' '16+' '20+' '20-64' '6+' '5+' '14+' '18+'
+ '6-65' '5-17' '5-14' '6-17' '10-17' '7-17' '_U' '18-29' '18-74' '1-14'
+ '2-14' '5-12' '1-4' '<25Y' '<=45Y' '46+' '_X' '<35Y' '<45Y' 'M24T35'
+ 'M12T23' 'M48T59' '<8Y']
+Number of records for each "Age" : 
+<bound method Series.sort_values of Age
+15+       62755
+ALLAGE    60594
+15-24     56495
+<5Y       49034
+<1Y       29216
+          ...  
+<10Y          2
+5-12          1
+1-4           1
+<6Y           1
+<8Y           1
+Name: count, Length: 72, dtype: int64> 
+
+Field: "Freq" 
+Count of Unique Values: 0
+[nan]
+Number of records for each "Freq" : 
+<bound method Series.sort_values of Series([], Name: count, dtype: int64)> 
+
+Field: "Location" 
+Count of Unique Values: 5
+['ALLAREA' 'URBAN' 'RURAL' nan 'TSUB' 'CITY']
+Number of records for each "Location" : 
+<bound method Series.sort_values of Location
+ALLAREA    183482
+URBAN       92732
+RURAL       88047
+TSUB         3264
+CITY         2200
+Name: count, dtype: int64> 
+
+Field: "Nature" 
+Count of Unique Values: 6
+['N' 'G' 'M' 'E' 'CA' 'C' nan]
+Number of records for each "Nature" : 
+<bound method Series.sort_values of Nature
+C     922094
+E     907495
+G     327993
+N     321500
+M      68912
+CA     64291
+Name: count, dtype: int64> 
+
+Field: "Sex" 
+Count of Unique Values: 6
+['BOTHSEX' 'FEMALE' 'MALE' nan '_X' '_O' '_U']
+Number of records for each "Sex" : 
+<bound method Series.sort_values of Sex
+BOTHSEX    267788
+FEMALE     257778
+MALE       215146
+_O           1381
+_X            844
+_U            674
+Name: count, dtype: int64> 
+
+Field: "UnitMultiplier" 
+Count of Unique Values: 0
+[nan]
+Number of records for each "UnitMultiplier" : 
+<bound method Series.sort_values of Series([], Name: count, dtype: int64)> 
+
+Field: "Units" 
+Count of Unique Values: 48
+['PERCENT' 'CU_USD' 'NUMBER' 'PER_100000_POP' 'INDEX' 'CU_USD_M' 'NUM_TH'
+ 'NUM_M' 'PER_POP_U5' 'CON_PPP_USD' 'CON_USD_M' 'PER_100000_LIVE_BIRTHS'
+ 'PER_1000_LIVE_BIRTHS' 'PER_1000_UNINFECTED_POP' 'PER_1000_POP'
+ 'LTPUREAL' 'PER_10000_POP' 'Ratio' 'PER_MARW_20T24Y' 'SCORE'
+ 'M_M3_PER_YR' 'USD/m3' 'KMSQ' 'MJ_PER_GDP_CON_PPP_USD' 'W_PER_CAPITA'
+ 'KG_PER_CON_USD' 'TONNES' 'CUR_LCU' 'PER_100000_EMP' 'T_KM' 'P_KM' 'TEU'
+ 'METONS' 'CON_USD' 'TONNES_M' 'PER_1000000_POP' 'MO_EARN' 'mgr/m^3' 'KG'
+ 'CU_USD_B' 'MT_CO2E' 'KG_KM2_PER_DAY' 'PH' 'HA_TH' 'T_PER_HA' 'BOOL'
+ 'CUR_LCU_M' 'PER_100_POP']
+Number of records for each "Units" : 
+<bound method Series.sort_values of Units
+PERCENT                    1188586
+TONNES                      362478
+NUMBER                      223867
+KG_PER_CON_USD              175845
+Ratio                       105745
+CON_USD_M                    76489
+KMSQ                         76087
+PER_100000_POP               69237
+PER_1000_UNINFECTED_POP      42261
+W_PER_CAPITA                 37708
+PER_1000_LIVE_BIRTHS         36960
+CU_USD                       26645
+CUR_LCU                      24764
+INDEX                        24163
+CU_USD_M                     21569
+NUM_TH                       21167
+USD/m3                       16485
+mgr/m^3                      12520
+CON_PPP_USD                   9907
+PER_POP_U5                    9763
+PER_100_POP                   9038
+PER_1000_POP                  8862
+PER_10000_POP                 8646
+TONNES_M                      8022
+HA_TH                         7645
+PER_100000_EMP                7195
+CON_USD                       5728
+MJ_PER_GDP_CON_PPP_USD        5649
+NUM_M                         4750
+PER_100000_LIVE_BIRTHS        4725
+KG_KM2_PER_DAY                4224
+KG                            4058
+CUR_LCU_M                     3793
+LTPUREAL                      3423
+CU_USD_B                      2656
+SCORE                         2294
+BOOL                          1973
+PER_1000000_POP               1946
+T_PER_HA                      1944
+TEU                           1936
+MT_CO2E                       1866
+T_KM                          1560
+P_KM                          1399
+PH                            1291
+M_M3_PER_YR                    762
+PER_MARW_20T24Y                414
+METONS                         168
+MO_EARN                          6
+Name: count, dtype: int64> 
+
+Field: "Level/Status" 
+Count of Unique Values: 19
+[nan '_T' 'MHIGIMP' 'MLOWIMP' 'HIGIMP' 'LOWIMP' 'VLOWIMP' 'VHIGIMP'
+ 'LI_IMP_ADMNG' 'LI_PLDV' 'LI_PLA_DSG' 'ABT2NONTLT' 'ABT2ACHIEVE'
+ 'ABT2NOPROG' 'ABT2INSUFNT' 'ABT2EXCEED' 'ABT2DIGRESS' 'LS_COMPDISSE'
+ 'LS_COMP' 'LS_DISSEM']
+Number of records for each "Level/Status" : 
+<bound method Series.sort_values of Level/Status
+_T              2522
+ABT2INSUFNT      119
+LS_COMPDISSE     100
+ABT2ACHIEVE       88
+ABT2NONTLT        85
+MLOWIMP           84
+LOWIMP            83
+MHIGIMP           73
+LS_DISSEM         43
+HIGIMP            40
+VHIGIMP           36
+VLOWIMP           32
+LS_COMP           29
+ABT2NOPROG        22
+LI_IMP_ADMNG      18
+ABT2EXCEED        10
+LI_PLDV            8
+LI_PLA_DSG         7
+ABT2DIGRESS        6
+Name: count, dtype: int64> 
+
+Field: "Name of international agreement" 
+Count of Unique Values: 0
+[nan]
+Number of records for each "Name of international agreement" : 
+<bound method Series.sort_values of Series([], Name: count, dtype: int64)> 
+
+Field: "Education level" 
+Count of Unique Values: 10
+[nan 'PRIMAR' 'LOWSEC' 'GRAD23' 'UPPSEC' 'SECOND' 'PREPRI' '_T' 'AGG_0_1'
+ 'AGG_GE2' 'AGG_5T8']
+Number of records for each "Education level" : 
+<bound method Series.sort_values of Education level
+PRIMAR     79088
+LOWSEC     78153
+UPPSEC     70756
+SECOND      6167
+PREPRI      4991
+_T          4710
+GRAD23       987
+AGG_GE2      635
+AGG_0_1      634
+AGG_5T8        4
+Name: count, dtype: int64> 
+
+Field: "Type of product" 
+Count of Unique Values: 29
+[nan 'WHE' 'RIC' 'MAZ' 'SOR' 'MIL' 'ALP' 'BIM' 'PET' 'GBO' 'NMC' 'FEO'
+ 'CRO' 'NMA' 'WOD' 'COL' 'NMM' 'FOF' 'ONT' 'CPR' 'NFO' 'MEO' 'GAS' 'WCH'
+ 'CLO' 'AGR' 'ARM' 'TEX' 'IND' 'OIL']
+Number of records for each "Type of product" : 
+<bound method Series.sort_values of Type of product
+ALP    41751
+MEO    29554
+FOF    29554
+NMM    29554
+BIM    29550
+COL    27406
+NMA    27406
+GAS    27406
+NFO    27406
+CPR    27406
+ONT    27406
+WOD    27406
+CRO    27406
+FEO    27406
+NMC    27406
+GBO    27406
+PET    27406
+WCH    27406
+IND    12095
+AGR    12021
+TEX    12001
+CLO    11944
+ARM     8061
+OIL     6394
+RIC      568
+MAZ      440
+WHE      432
+SOR      144
+MIL       88
+Name: count, dtype: int64> 
+
+Field: "Type of facilities" 
+Count of Unique Values: 0
+[nan]
+Number of records for each "Type of facilities" : 
+<bound method Series.sort_values of Series([], Name: count, dtype: int64)> 
+
+Field: "Name of international institution" 
+Count of Unique Values: 11
+[nan 'ADB' 'UNGA' 'IBRD' 'IMF' 'IFC' 'ECOSOC' 'WTO' 'AFDB' 'UNSC' 'IADB'
+ 'FSB']
+Number of records for each "Name of international institution" : 
+<bound method Series.sort_values of Name of international institution
+UNGA      8684
+IMF       8476
+IBRD      8472
+IFC       8260
+WTO       7212
+AFDB      3688
+ADB       2848
+ECOSOC    2596
+IADB      2108
+FSB       1044
+UNSC       800
+Name: count, dtype: int64> 
+
+Field: "Type of occupation" 
+Count of Unique Values: 36
+[nan 'PHAR' 'PHYS' 'NURSMID' 'DENT' 'NURS' '_T' 'isco08-4' 'isco08-3'
+ 'isco08-2' 'isco08-1' 'isco08-5' 'isco08-6' 'isco08-7' 'isco08-9'
+ 'isco08-X' 'isco08-0' 'isco08-8' 'isco88-0' 'isco88-1' 'isco88-2'
+ 'isco88-3' 'isco88-4' 'isco88-5' 'isco88-6' 'isco88-7' 'isco88-8'
+ 'isco88-9' 'isco88-X' 'GENERAL' 'SENIORMAN' 'OTHERMAN' 'ADMINPRO'
+ 'ASSOCPRO' 'TOTAL_PSP' 'REGISTRARS' 'JUDGES']
+Number of records for each "Type of occupation" : 
+<bound method Series.sort_values of Type of occupation
+PHYS          3083
+_T            2467
+NURSMID       2360
+DENT          2067
+PHAR          1900
+isco08-5      1773
+isco08-4      1771
+isco08-7      1766
+isco08-9      1766
+isco08-2      1763
+isco08-1      1746
+isco08-3      1733
+isco08-8      1732
+isco08-6      1645
+NURS          1070
+isco08-0       772
+isco88-2       545
+isco88-4       545
+isco88-3       545
+isco88-1       545
+isco08-X       544
+isco88-5       542
+isco88-7       539
+isco88-8       536
+isco88-9       535
+isco88-6       423
+JUDGES         318
+isco88-0       266
+isco88-X       265
+REGISTRARS     231
+TOTAL_PSP      113
+SENIORMAN       45
+GENERAL         41
+OTHERMAN        41
+ADMINPRO        40
+ASSOCPRO        40
+Name: count, dtype: int64> 
+
+Field: "Tariff regime (status)" 
+Count of Unique Values: 0
+[nan]
+Number of records for each "Tariff regime (status)" : 
+<bound method Series.sort_values of Series([], Name: count, dtype: int64)> 
+
+Field: "Type of skill" 
+Count of Unique Values: 16
+[nan 'SKILL_MATH' 'SKILL_READ' 'CMFL' 'TRAF' 'PRVCY' 'COPA' 'EPRS' 'SOFT'
+ 'PCPR' 'VRFY' 'ARSP' 'EMAIL' 'INST' 'SCRTY' 'LITE' 'NUME']
+Number of records for each "Type of skill" : 
+<bound method Series.sort_values of Type of skill
+SKILL_MATH    5644
+SKILL_READ    5016
+EPRS          4221
+TRAF          4080
+ARSP          4020
+PCPR          3801
+SOFT          3677
+COPA          3649
+INST          2664
+CMFL          2615
+EMAIL         2505
+PRVCY          448
+VRFY           425
+SCRTY          309
+LITE           258
+NUME           231
+Name: count, dtype: int64> 
+
+Field: "Mode of transportation" 
+Count of Unique Values: 5
+[nan 'RAI' 'ROA' 'IWW' 'AIR' 'SEA']
+Number of records for each "Mode of transportation" : 
+<bound method Series.sort_values of Mode of transportation
+SEA    2104
+AIR    2019
+RAI     376
+ROA     376
+IWW     188
+Name: count, dtype: int64> 
+
+Field: "Type of mobile technology" 
+Count of Unique Values: 0
+[nan]
+Number of records for each "Type of mobile technology" : 
+<bound method Series.sort_values of Series([], Name: count, dtype: int64)> 
+
+Field: "Name of non-communicable disease" 
+Count of Unique Values: 4
+[nan 'RES' 'CAR' 'CAN' 'DIA']
+Number of records for each "Name of non-communicable disease" : 
+<bound method Series.sort_values of Name of non-communicable disease
+RES    3045
+CAR    3045
+CAN    3045
+DIA    3045
+Name: count, dtype: int64> 
+
+Field: "Type of speed" 
+Count of Unique Values: 4
+[nan 'ANYS' '256KT2MBPS' '10MBPS' '2MT10MBPS']
+Number of records for each "Type of speed" : 
+<bound method Series.sort_values of Type of speed
+ANYS          8137
+2MT10MBPS     3230
+256KT2MBPS    3222
+10MBPS        3132
+Name: count, dtype: int64> 
+
+Field: "Migratory status" 
+Count of Unique Values: 3
+[nan '_T' 'NONMIG' 'MIGPER']
+Number of records for each "Migratory status" : 
+<bound method Series.sort_values of Migratory status
+_T        5188
+NONMIG    1617
+MIGPER     396
+Name: count, dtype: int64> 
+
+Field: "Disability status" 
+Count of Unique Values: 3
+[nan '_T' 'PWD' 'PD']
+Number of records for each "Disability status" : 
+<bound method Series.sort_values of Disability status
+_T     12931
+PWD     5436
+PD      4910
+Name: count, dtype: int64> 
+
+Field: "Hazard type" 
+Count of Unique Values: 0
+[nan]
+Number of records for each "Hazard type" : 
+<bound method Series.sort_values of Series([], Name: count, dtype: int64)> 
+
+Field: "IHR Capacity" 
+Count of Unique Values: 42
+[nan 'IHR13' 'IHR12' 'IHR10' 'IHR11' '_T' 'IHR01' 'IHR09' 'IHR08' 'IHR02'
+ 'IHR07' 'IHR06' 'IHR05' 'IHR04' 'IHR03' 'SPAR07' 'SPAR08' 'SPAR10'
+ 'SPAR09' 'SPAR02' 'SPAR04' 'SPAR06' 'SPAR03' 'SPAR05' 'SPAR13' 'SPAR11'
+ 'SPAR12' 'SPAR01' 'SPAR2-C12' 'SPAR2-C15' 'SPAR2-C14' 'SPAR2-C11'
+ 'SPAR2-C09' 'SPAR2-C03' 'SPAR2-C02' 'SPAR2-C04' 'SPAR2-C13' 'SPAR2-C10'
+ 'SPAR2-C01' 'SPAR2-C07' 'SPAR2-C08' 'SPAR2-C05' 'SPAR2-C06']
+Number of records for each "IHR Capacity" : 
+<bound method Series.sort_values of IHR Capacity
+IHR13        1473
+IHR08        1473
+IHR03        1473
+IHR04        1473
+IHR05        1473
+IHR06        1473
+IHR02        1473
+IHR07        1473
+IHR09        1473
+IHR01        1473
+IHR11        1473
+IHR10        1473
+IHR12        1473
+SPAR06        652
+SPAR01        652
+SPAR12        652
+SPAR11        652
+SPAR13        652
+SPAR05        652
+SPAR03        652
+SPAR04        652
+SPAR09        652
+SPAR10        652
+SPAR08        652
+SPAR07        652
+SPAR02        652
+_T            516
+SPAR2-C04     445
+SPAR2-C05     445
+SPAR2-C08     445
+SPAR2-C07     445
+SPAR2-C01     445
+SPAR2-C10     445
+SPAR2-C13     445
+SPAR2-C09     445
+SPAR2-C02     445
+SPAR2-C03     445
+SPAR2-C11     445
+SPAR2-C14     445
+SPAR2-C15     445
+SPAR2-C12     445
+SPAR2-C06     445
+Name: count, dtype: int64> 
+
+Field: "Cities" 
+Count of Unique Values: 5554
+[nan 'AF_JALALABAD' 'AF_PUL_E_KHUMRI' ... 'AE_AL_AYN' 'TN_MAJAZ_AL_BAB'
+ 'US_CLEVELAND_OH']
+Number of records for each "Cities" : 
+<bound method Series.sort_values of Cities
+NOCITI                           36
+GH_ACCRA                         23
+LI_SCHAAN                        20
+GH_TAMALE                        18
+GH_KUMASI                        18
+                                 ..
+CO_COR_SAHAGUN                    1
+CO_COR_PURISIMA_LA_CONCEPCION     1
+CO_COR_PUERTO_LIBERTADOR          1
+CO_COR_PLANETA_RICA               1
+US_CLEVELAND_OH                   1
+Name: count, Length: 5554, dtype: int64> 
+
+Field: "Reporting Type" 
+Count of Unique Values: 1
+['G']
+Number of records for each "Reporting Type" : 
+<bound method Series.sort_values of Reporting Type
+G    2668219
+Name: count, dtype: int64> 
+
+Field: "Quantile" 
+Count of Unique Values: 9
+[nan 'Q1' '_T' 'Q4' 'Q3' 'Q2' 'Q5' 'B40' 'R60' 'B50']
+Number of records for each "Quantile" : 
+<bound method Series.sort_values of Quantile
+_T     87518
+Q1     22201
+Q4     21498
+Q3     21477
+Q2     21375
+Q5     21250
+B50     1874
+B40      742
+R60      635
+Name: count, dtype: int64> 
+
+Field: "Activity" 
+Count of Unique Values: 29
+[nan 'ISIC4_A' 'PRIV_HH' 'SERV_HH' 'ISIC4_D' 'ISIC4_C' 'ISIC4_B' 'ISIC4_F'
+ 'INDUSTRIES' 'SERVICES' 'TOTAL' 'ISIC4_GTT' 'ISIC4_A01_A0210_A0322'
+ 'NONAGR' 'ISIC3_D' 'ISIC4_C10T32X19' 'ISIC4_T' 'ISIC4_S' 'ISIC4_L'
+ 'ISIC4_K' 'ISIC4_J' 'ISIC4_G' 'ISIC4_H' 'ISIC4_Q' 'ISIC4_N' 'ISIC4_I'
+ 'ISIC4_R' 'ISIC4_M' 'ISIC4_P' 'ISIC4_E']
+Number of records for each "Activity" : 
+<bound method Series.sort_values of Activity
+ISIC4_C                  31634
+TOTAL                    21174
+ISIC4_GTT                 8505
+INDUSTRIES                8398
+ISIC4_A01_A0210_A0322     8295
+ISIC4_A                   5428
+NONAGR                    4827
+ISIC4_C10T32X19           4011
+ISIC4_F                   1148
+ISIC4_B                    996
+ISIC4_T                    957
+ISIC4_D                    658
+ISIC4_G                    590
+ISIC4_S                    532
+ISIC4_K                    499
+ISIC4_J                    384
+ISIC4_H                    329
+ISIC4_L                    253
+ISIC4_M                    225
+ISIC3_D                    214
+ISIC4_I                    194
+ISIC4_N                    178
+ISIC4_Q                    173
+ISIC4_R                    104
+SERVICES                    56
+PRIV_HH                     56
+SERV_HH                     56
+ISIC4_P                     55
+ISIC4_E                     35
+Name: count, dtype: int64> 
+
+Field: "Observation Status" 
+Count of Unique Values: 11
+[nan 'E' 'A' 'B' 'O' 'Q' 'G' 'U' 'P' 'D' 'I' 'M']
+Number of records for each "Observation Status" : 
+<bound method Series.sort_values of Observation Status
+A    1035043
+E     129449
+O      37015
+M       9584
+Q       7483
+D       3543
+I       2191
+G       1824
+U       1700
+B        296
+P         22
+Name: count, dtype: int64> 
+
+Field: "Policy Domains" 
+Count of Unique Values: 7
+[nan 'DOMAIN1' 'DOMAIN6' 'ALLDOMAINS' 'DOMAIN2' 'DOMAIN3' 'DOMAIN4'
+ 'DOMAIN5']
+Number of records for each "Policy Domains" : 
+<bound method Series.sort_values of Policy Domains
+DOMAIN1       326
+DOMAIN6       326
+ALLDOMAINS    326
+DOMAIN2       326
+DOMAIN3       326
+DOMAIN4       326
+DOMAIN5       326
+Name: count, dtype: int64> 
+
+Field: "Policy instruments" 
+Count of Unique Values: 4
+[nan 'POLICY_REGLEG' 'POLICY_MACRO' 'POLICY_VOLSRG' 'POLICY_ECONFIS']
+Number of records for each "Policy instruments" : 
+<bound method Series.sort_values of Policy instruments
+POLICY_MACRO      149
+POLICY_REGLEG      82
+POLICY_VOLSRG      63
+POLICY_ECONFIS     46
+Name: count, dtype: int64> 
+
+Field: "Sampling Stations" 
+Count of Unique Values: 556
+[nan 'FERROVIA' 'LUANDA' 'FLORESTA' 'PORTOPESQUEIRO' 'CAISDECARVAO'
+ 'BORGES' 'GEF2' 'VERIL' 'COSTAL_AR' 'EMAC_MDP' 'NRSNSI' 'NRSKAI' 'NRSMAI'
+ 'NRSPHB' 'NRSYON' 'NRSROT' 'NRSDAR' 'R-VBELGICA' 'S01' 'W07' 'W03' 'W02'
+ 'W01' 'W04' 'W06' 'W05' 'W10' 'W09' 'S03' 'W08' 'VLIZLWSTATION' 'MOW1'
+ 'BRAZIL1' 'BRASIL1_06' 'BRASIL2_13' 'BRAZIL2' 'BRAZIL3' 'BRASIL3_15'
+ 'BRASIL4_17' 'BRAZIL4' 'BROA_1' 'BROA_2' 'JPT_1' 'JPT_3' 'JPT_2' 'MRG_3'
+ 'MRG_2' 'MRG_1' 'JPT_4' 'MRG_4' 'MRG_5' 'QU39' 'KC10' 'CANADA'
+ 'BEAUFORTGYRE' 'AR7W_20' 'AR7W_19' 'AR7W_18' 'AR7W_17' 'AR7W_16'
+ 'AR7W_15' 'AR7W_14' 'AR7W_13' '92_460_20VD' '90_460_20VD' '61_460_20VD'
+ '95_460_20VD' '07_460_20VD' '05_460_20VD' '04_460_20VD' '06_460_20VD'
+ '21A_460_20VD' '20_460_20VD' '19_460_20VD' '18_460_20VD' '01_460_20VD'
+ '03_460_20VD' '02_460_20VD' '23_460_20VD' '22_460_20VD' '21B_460_20VD'
+ '83_460_20VD' '82_460_20VD' '89_460_20VD' '88_460_20VD' '87_460_20VD'
+ '86_460_20VD' '85_460_20VD' '60_460_20VD' '58A_460_20VD' '58_460_20VD'
+ '70_460_20VD' '69_460_20VD' '68_460_20VD' '67_460_20VD' '64_460_20VD'
+ '77_460_20VD' '76_460_20VD' '75_460_20VD' '78_460_20VD' '26_460_20VD'
+ '31H_460_20VD' '29_460_20VD' '28_460_20VD' '27_460_20VD' '25A_460_20VD'
+ '31G_460_20VD' '38_460_20VD' '35_460_20VD' '36_460_20VD' '43_460_20VD'
+ '42_460_20VD' '41_460_20VD' '45_460_20VD' '40_460_20VD' '94_460_20VD'
+ '93_460_20VD' '09_460_20VD' '48_460_20VD' '11_460_20VD' '10_460_20VD'
+ '08_460_20VD' '17_460_20VD' '16_460_20VD' '15_460_20VD' '14_460_20VD'
+ '13_460_20VD' '12_460_20VD' '33_460_20VD' '84_460_20VD' '50_460_20VD'
+ '49_460_20VD' '62_460_20VD' '91_460_20VD' '63_460_20VD' '65_460_20VD'
+ '57_460_20VD' '56_460_20VD' '55_460_20VD' '59_460_20VD' '54_460_20VD'
+ '53_460_20VD' '51_460_20VD' '74_460_20VD' '73_460_20VD' '72_460_20VD'
+ '71_460_20VD' '81_460_20VD' '80_460_20VD' '79_460_20VD' '31F_460_20VD'
+ '31E_460_20VD' '31D_460_20VD' '31C_460_20VD' '31B_460_20VD'
+ '31A_460_20VD' '39_460_20VD' '25_460_20VD' '24_460_20VD' '31I_460_20VD'
+ '32_460_20VD' '46_460_20VD' '37_460_20VD' '34_460_20VD' '31_460_20VD'
+ '30_460_20VD' '47_460_20VD' '44_460_20VD' '52_460_20VD' '21_460_20VD'
+ 'CHILE' 'BAHIASANTAMARTA' 'BAHIACHENGUE' 'GUAOFF13' 'GN' 'BOYA' 'AS' 'AN'
+ 'REDCAM' 'HORNO_GORGONA' 'COLOMBIA' 'FRENTE_PLAYA_BOCAGRANDE'
+ 'FRENTE_PLAYA_BLANCA' 'FRENTE_A_JUANCHACO' 'ESTACION_AO_EN_GORGONILLA'
+ 'GS' 'CABO_DE_LA_VELA' 'BOYA_AKUARA' 'PLAYA_MAYAPO' 'OS' 'ON'
+ 'MUELLE_MANAURE_SALINA' 'CUENCA_PACIFICO_NORTE' 'CORDILLERA_BEATA'
+ 'CHO_OFF_5' 'PUERTO_BOLIVAR' 'FRENTE_PLAYA_MANZANILLO' 'BOCAS_DE_CENIZA'
+ 'BOCANA_ENSENADA_TUMACO' 'BANCO_DE_CORAL_FRENTE_A_ISLA_ARENA' 'ESSA1'
+ 'ESSA' 'ESSA2' 'SJA' 'NARVA_KUNDA_LAHT__12C' 'HAAPSALU_LAHT__HL4'
+ 'HAAPSALU_LAHT__HL1' 'ESSA3' 'HAAPSALU_LAHT__HL6'
+ 'MUUGA_TALLINNA_KAKUMAE_LAHT__2' 'PARNU_LAHT__K7' 'PARNU_LAHT__K5'
+ 'PARNU_LAHT__K4' 'NARVA_KUNDA_LAHT__N8' 'NARVA_KUNDA_LAHT__38'
+ 'MUUGA_TALLINNA_KAKUMAE_LAHT__57A' 'SJA2'
+ 'MUUGA_TALLINNA_KAKUMAE_LAHT__3' 'LIIVI_LAHT__K21' 'LIIVI_LAHT__K2'
+ 'HAAPSALU_LAHT__HL8' 'NAVUNIIVII' 'FISHPATCH-SUVAREEF' 'F18' 'MS9' 'LL5'
+ 'LL3A' 'LL19' 'LL17' 'LL15' 'LL12' 'F69' 'F64' 'F62' 'F26' 'XV1' 'XIV3'
+ 'SR8' 'SR7' 'FI-SR5' 'SR3' 'SR1A' 'RR7' 'BY29' 'BO3' 'AMN' '39A' 'FI-F2'
+ 'F33' 'MS3' 'MS2' 'LL9' 'LL7S' 'LL7' 'LL6A' 'LL11' 'JML' 'IU7' 'IU5'
+ 'IU3' 'IU1' 'GF2' 'GF1' 'XII3' 'UUS-23LANGDEN' 'US7' 'US6B' 'FI-US5B'
+ 'US3' 'TROSKAH' 'SS29' 'RR6' 'RR3' 'MS6' 'FI-F16' 'F15' 'FI-F13' 'CVI'
+ 'CV' 'SURATLANT' 'OISO-18' 'OVIDE-2010' 'OISO-19' 'OISO-21' 'OVIDE-2012'
+ 'OISO-22' 'OVIDE-2014' 'OISO-24' 'OISO-26' 'OISO-27' 'OISO-28'
+ 'OVIDE_2018' 'OISO_29' 'CLIM-EPARSES' 'CE14017' 'CE14012B' 'CE14012A'
+ 'CE15013A_NORTHSEASUM' 'CE15004' 'CE15013B' 'CE16011A' 'CE16018'
+ 'CE16011B' 'AL469' '246' 'CE17013B' 'CE17013A' 'CE17001' 'CE18002' '174'
+ 'BSH_NORTH_SEA_SUMMER' 'CEND_19_18' 'CEND_04_19' 'CE19016_NORTHSEASUM'
+ 'CE19002' 'CE20017B' 'CE20017A' 'CE20002' 'CE21001' '003'
+ 'POSEIDON_HERAKLION_COASTAL_BUOY' 'HCB' 'FX9' 'LN6' 'ST5' 'CV18001'
+ 'CE19009' 'CV19001' 'MEDSEA' 'C1_MIRAMARE' 'JACQUEVILLE' 'K2'
+ 'MUTSU-SEKINEHAMAPORT' 'OSHORO' 'KURUWITU' 'KILIFIBAY' 'DIANI'
+ 'CORALGARDEN' 'GAZI' 'SHIMONI' 'NYALI' 'MALINDI' 'KILIFI' 'VANGA' 'LAMU'
+ 'MOMBASA' 'MOMBASA_NYALI' 'MOMBASA_CORAL_GARDEN' 'SHIMONI_WASINI'
+ 'SHIMONI_CHANJALE' 'ORA' 'KUWAIT' 'STMPA-4' 'STMPA-5' 'STMPA-1' 'STMPA-2'
+ 'STMPA-3' 'ALBION' 'BOYADERECALADA-MAZATLAN' 'MOZAMBIQUE' 'OM-OFFSHORE'
+ 'SOHAR' 'MIJIS' 'TERSLG135' 'TERSLG100' 'TERSLG10' 'SCHOUWN10'
+ 'NOORDWK70' 'WALCRN70' 'NOORDWK20' 'GOERE2' 'NOORDWK10' 'GOERE6'
+ 'NOORDWK2' 'WALCRN20' 'WALCRN2' 'TERSLG50' 'TERSLG235' 'TERSLG175'
+ 'ROTTMPT70' 'ROTTMPT50' 'WELLINGTON' 'BAYOFPLENTY' 'MARLBOROUGHSOUNDS'
+ 'GOLDENBAY' 'AUCKLAND' 'CHATHAMISLANDS' 'TASMANBAY'
+ 'WESTCOAST-JACKSONBAY' 'DUNEDINPYLON' 'STEWARTISLAND'
+ 'MARLBOROUGHSOUNDS-CANNONHILL' 'WAIQRUA' 'WRC_128'
+ 'DOCTUHUA(MAYORISLAND)MR/TAURANGA' 'DOCTEANGIANGIMR/NAPIER'
+ 'DOCTAPUTERANGAMR/WELLINGTON' 'WAIQTAHI' '5MWEST' '5MEAST' '15MWEST'
+ 'DOC_TAPUTERANGA_TM_WELLINGTON' 'DOC_POOR_KNIGHTS_PK_WHANGAREI'
+ 'DOC_KAPITI_KM_WELLINGTON' 'DOC_TE_WHANGANUI_A_HEI_CC_WHITIANGA'
+ 'DOC_TE_ANGIANGI_TA_NAPIER' 'DOC_TUHUA_MI_TAURANGA'
+ 'DOC_TAPUAE_NP_NEW_PLYMOUTH' 'DOC_CAPE_FOULWIND_CF_WESTPORT'
+ 'DOC_HIKURANGI_KK_KAIKOURA' 'WESTCOAST' 'IMR_NORWEGIAN_SEA' 'MOSJ'
+ 'CARBONBRIDGE' 'ARENDAL' 'VT3' 'VT71' 'VR54' 'VT29' 'B_H' 'HAV' 'B_K'
+ 'OSLO-KIEL' 'TROMSO-LONGYEARBYEN' 'VT5' 'HAV_64378' 'HAV_64377'
+ 'HAV_64379' 'HAV_64374' 'HAV_64372' 'HAV_64375' '01_20_64373' 'HAV_64371'
+ 'HAV_64369' 'HAV_64370' 'HAV_82220' 'HAV_82224' 'HAV_82219' 'HAV_82218'
+ 'HAV_82217' 'HAV_64382' 'HAV_64376' 'CORALLREEF' 'BARENTS_SEA_OPENING_1'
+ 'BARENTS_SEA_OPENING_' '04_20_99319' '04_20_99317' 'IMARPE'
+ 'PHILIPPINES1_15' 'PHILIPPINES2_16' 'PHILIPPINES3_17' 'RSVP' 'WPS'
+ 'PHILIPPINES4_18' 'PHILIPPINES5_ 19' 'PHILIPPINES6_19' 'VISAYANSEA'
+ 'CONSTANTA' 'VIETNAM1_18' 'VIETNAM2_19' 'VIETNAM2_20' 'ALGOA' 'INSHORE'
+ 'ZA-OFFSHORE' 'ESTOC' 'BAY_OF_PALMA' 'CABRERA' 'RADIALVIGO' 'SE-SR5'
+ 'BO3/A3' 'ANHOLTE' 'BY15GOTLANDSDJUPET' 'BY5BORNHOLMSDJUPET' 'SE-F16'
+ 'EFUSHANHAI' 'SE-US5B' 'F9' 'N14FALKENBERG' 'REFM1V1' 'A17' 'SLAGGO'
+ 'BY31LANDSORTSDJUPET' 'WLANDSKRONA' 'BCSIII-10' 'BY15W' 'SE-F13'
+ 'F64SOLOVJEVA' 'SE-F2' 'HANOBUKTEN' 'BY1' 'A15' 'BY20FARODJUPET'
+ 'BY4CHRISTIANSO' 'BY38KARLSODJUPET' 'BY32NORRKOPINGSDJUPET' 'BY10'
+ 'FLADEN' 'SR3/C24' 'MS4/C14' 'F3' 'BY19' 'BY2ARKONA' 'BY9KLAIPEDA'
+ 'F3_A5' 'US2_ULVODJUPET_C5' 'BY29_LL19' 'F9_A13' 'US5B_C1' 'C3'
+ 'THAILAND1_16' 'THAILAND1_17' 'THAILAND2_18' 'THAILAND2_19'
+ 'THAILAND3_20' 'L4' 'WCOL4' 'GARRONPOINTSCOTLAND' 'WCOE1'
+ 'WESTERN_CHANNEL_OBSERVATORY_E1' 'J06' 'BENTHICG' 'BENTHICI' 'BENTHICH'
+ 'CANDYFLOSS/CCS' 'FE' 'CS2' 'TRANSECTO4' 'BENTHICA' 'J02' 'J04'
+ 'BAGAMOYO_SEAGRASSMEADOWS' 'RUFIJI_MANGROVES' 'RUFIJI_CORALREEF'
+ 'BAGAMOYO_OPENWATER' 'BAGAMOYO_MANGROVES' 'BAGAMOYO_CORALREEFS'
+ 'RUFIJI_SEAGRASSMEADOWS' 'KUNDUCHI_SEAGRASSMEADOWS' 'KUNDUCHI_OPENWATER'
+ 'KUNDUCHI_MANGROVES' 'KUNDUCHI_CORALREEFS' 'RUFIJI_OPENWATER'
+ 'GULFOFMAINE' 'CHABA' 'GRAYSREEF' 'KANEOHE' 'COASTALMS' 'CHEECAROCKS'
+ 'CCE2' 'LAPARGUERA' 'CCE1' 'NH-10' 'FIRSTLANDING' 'COASTALLOUISIANA'
+ 'CAPEARAGO' 'COSTAL']
+Number of records for each "Sampling Stations" : 
+<bound method Series.sort_values of Sampling Stations
+ANHOLTE               17
+BY15GOTLANDSDJUPET    17
+BY5BORNHOLMSDJUPET    17
+A17                   15
+REFM1V1               15
+                      ..
+SR8                    1
+XIV3                   1
+XV1                    1
+F26                    1
+COSTAL                 1
+Name: count, Length: 556, dtype: int64> 
+
+Field: "Type of waste treatment" 
+Count of Unique Values: 7
+[nan 'RECYCL' 'INCINRT_EGY' 'OTHERWM' 'LANDFIL' 'INCINRT' 'LANDFILCTL'
+ 'COMPOST']
+Number of records for each "Type of waste treatment" : 
+<bound method Series.sort_values of Type of waste treatment
+INCINRT        2585
+INCINRT_EGY    2127
+LANDFIL        1620
+OTHERWM        1335
+LANDFILCTL      643
+RECYCL          609
+COMPOST         478
+Name: count, dtype: int64> 
+
+Field: "Grounds of discrimination" 
+Count of Unique Values: 43
+[nan 'ALL' 'SEXO' 'RELIGION' 'SEX' 'AGE' 'OTHER' 'DIS' 'ETHI' 'SOCIOECON'
+ 'ETH' 'LANDIA' 'COLR' 'ORIGIN' 'SEXOGENID' 'CLOTH' 'MIG' 'ETHCOLLAN'
+ 'DISHEA' 'GEO' 'ETHCUL' 'RACECOLR' 'RES' 'MARFAM' 'POLVIEW' 'NATION'
+ 'FAM' 'MAR' 'ETHCOLLANNAL' 'HEALTH' 'ETHCOLLANMIG' 'PHYSCOND'
+ 'ETHRACECOLLAN' 'GENID' 'SEXGENID' 'ETHIO' 'HEAILLINJ' 'TRAD' 'NETW'
+ 'EDU' 'RACE' 'WEDLOCK' 'PREGY' 'WORK']
+Number of records for each "Grounds of discrimination" : 
+<bound method Series.sort_values of Grounds of discrimination
+ALL              1308
+SEX              1038
+AGE               984
+RELIGION          942
+OTHER             864
+DIS               834
+SEXO              748
+ETHI              550
+DISHEA            200
+SOCIOECON         188
+ETH               166
+MIG               146
+SEXOGENID         130
+COLR              130
+POLVIEW           116
+GEO               114
+ETHCOLLAN          98
+LANDIA             82
+RACECOLR           76
+ORIGIN             70
+MARFAM             54
+NETW               50
+TRAD               50
+ETHIO              46
+MAR                32
+WEDLOCK            30
+RES                22
+HEALTH             20
+ETHCOLLANMIG       20
+PHYSCOND           20
+ETHRACECOLLAN      20
+GENID              20
+SEXGENID           20
+CLOTH              20
+HEAILLINJ          16
+WORK               16
+ETHCOLLANNAL       12
+FAM                12
+NATION             10
+PREGY              10
+ETHCUL              6
+EDU                 6
+RACE                6
+Name: count, dtype: int64> 
+
+Field: "Parliamentary committees" 
+Count of Unique Values: 10
+[nan 'HUM_RIGH' 'GEN_EQU' 'DEFENCE' 'FINANCE' 'HR_GEQU' 'FOR_AFF'
+ 'FAFF_DEF' 'FAFF_DEF_FIN' 'FAFF_DEF_HR' 'FAFF_HR']
+Number of records for each "Parliamentary committees" : 
+<bound method Series.sort_values of Parliamentary committees
+GEN_EQU         1589
+HUM_RIGH        1524
+FINANCE         1475
+FOR_AFF         1270
+DEFENCE         1193
+FAFF_DEF         456
+HR_GEQU          182
+FAFF_DEF_FIN      27
+FAFF_DEF_HR       27
+FAFF_HR            8
+Name: count, dtype: int64> 
+
+Field: "Cause of death" 
+Count of Unique Values: 6
+[nan '_T' 'HEAVYWEAPONS' '_U' 'OTHER' 'EXPLOSIVES' 'SMALLARMS']
+Number of records for each "Cause of death" : 
+<bound method Series.sort_values of Cause of death
+_T              199
+HEAVYWEAPONS     16
+_U               16
+OTHER            16
+EXPLOSIVES       16
+SMALLARMS        16
+Name: count, dtype: int64> 
+
+Field: "Substance use disorders" 
+Count of Unique Values: 4
+[nan 'OPIOIDS' 'TOTAL' 'ATS' 'COCAINE']
+Number of records for each "Substance use disorders" : 
+<bound method Series.sort_values of Substance use disorders
+OPIOIDS    44
+TOTAL      16
+ATS        11
+COCAINE     9
+Name: count, dtype: int64> 
+
+Field: "Mountain Elevation" 
+Count of Unique Values: 0
+[nan]
+Number of records for each "Mountain Elevation" : 
+<bound method Series.sort_values of Series([], Name: count, dtype: int64)> 
+
+Field: "Deviation Level" 
+Count of Unique Values: 4
+[nan 'MEDIUM' 'LOW' 'HIGH' 'EXTREME']
+Number of records for each "Deviation Level" : 
+<bound method Series.sort_values of Deviation Level
+MEDIUM     1700
+LOW        1700
+HIGH       1700
+EXTREME    1700
+Name: count, dtype: int64> 
+
+Field: "Frequency of Chlorophyll-a concentration" 
+Count of Unique Values: 3
+[nan 'Moderate' 'High' 'Extreme']
+Number of records for each "Frequency of Chlorophyll-a concentration" : 
+<bound method Series.sort_values of Frequency of Chlorophyll-a concentration
+Moderate    1155
+High        1155
+Extreme     1155
+Name: count, dtype: int64> 
+
+Field: "Food Waste Sector" 
+Count of Unique Values: 4
+[nan 'HHS' 'OOHC' 'RTL' 'ALL']
+Number of records for each "Food Waste Sector" : 
+<bound method Series.sort_values of Food Waste Sector
+ALL     509
+OOHC    507
+HHS     506
+RTL     506
+Name: count, dtype: int64> 
+
+Field: "Fiscal intervention stage" 
+Count of Unique Values: 3
+[nan 'POSTFIS_DIS_INC' 'POSTFIS_CON_INC' 'PREFIS_INC']
+Number of records for each "Fiscal intervention stage" : 
+<bound method Series.sort_values of Fiscal intervention stage
+POSTFIS_DIS_INC    225
+POSTFIS_CON_INC    225
+PREFIS_INC         225
+Name: count, dtype: int64> 
+
+Field: "Level of requirement" 
+Count of Unique Values: 1
+[nan 'TOTAL']
+Number of records for each "Level of requirement" : 
+<bound method Series.sort_values of Level of requirement
+TOTAL    4839
+Name: count, dtype: int64> 
+
+Field: "Type of support" 
+Count of Unique Values: 5
+[nan 'TOTAL' 'CROSS_CUTTING' 'MITIGATION' 'ADAPTATION' 'OTHER']
+Number of records for each "Type of support" : 
+<bound method Series.sort_values of Type of support
+TOTAL            20
+CROSS_CUTTING    20
+MITIGATION       20
+ADAPTATION       20
+OTHER            18
+Name: count, dtype: int64> 
+
+Field: "Report Ordinal" 
+Count of Unique Values: 7
+[nan 'FIRST' 'SECOND' 'THIRD' 'FOURTH' 'FIFTH' 'SIXTH' 'EIGHTH']
+Number of records for each "Report Ordinal" : 
+<bound method Series.sort_values of Report Ordinal
+FIRST     12
+SECOND    10
+THIRD      5
+FOURTH     5
+FIFTH      5
+SIXTH      1
+EIGHTH     1
+Name: count, dtype: int64> 
+
+Field: "Counterpart" 
+Count of Unique Values: 104
+[nan 'TH' 'PK' 'ID' 'CN' 'VN' 'MY' 'FJ' 'SO' 'VU' 'LB' 'WS' 'ZW' 'PH' 'TO'
+ 'LK' 'IN' 'RS' 'HR' 'XK' 'HU' 'TR' 'BA' 'EG' 'BD' 'MA' 'DZ' 'CD' 'PE'
+ 'BO' 'PY' 'NG' 'JM' 'KE' 'GH' 'RW' 'HT' 'GY' 'NI' 'UA' 'CM' 'ML' 'CI'
+ 'SN' 'TN' 'MG' 'KM' 'TG' 'RO' 'AF' 'MD' 'AL' 'TJ' 'BG' 'MK' 'KG' 'NP'
+ 'ET' 'BR' 'EC' 'PS' 'SY' 'SS' 'UG' 'TZ' 'JO' 'MM' 'DO' 'SR' 'BJ' 'PL'
+ 'CV' 'MZ' 'SD' 'LT' 'BY' 'AM' 'KZ' 'EE' 'AZ' 'GE' 'UZ' 'LV' 'YE' 'BW'
+ 'MW' 'AO' 'SZ' 'LS' 'ZM' 'HN' 'CO' 'LA' 'KH' 'GM' 'ER' 'SL' 'ZA' 'MX'
+ 'PA' 'LR' 'CR' 'GT' 'CU' 'SV']
+Number of records for each "Counterpart" : 
+<bound method Series.sort_values of Counterpart
+IN    240
+CN    192
+PH    168
+PK    156
+VN    144
+     ... 
+AZ     12
+GE     12
+UZ     12
+LV     12
+SV     12
+Name: count, Length: 104, dtype: int64> 
+
+Field: "Government_Name" 
+Count of Unique Values: 39
+[nan 'VLAAMSE_OVERHEID' 'WALLOON_REGION' 'LESSER_POLAND_VOIVODESHIP'
+ 'PODKARPACKIE_VOIVODESHIP' 'GREATER_POLAND_VOIVODESHIP'
+ 'SILESIAN_VOIVODESHIP' 'SWIETOKRZYSKIE_VOIVODESHIP'
+ 'POMERANIAN_VOIVODESHIP' 'WEST_POMERANIAN_VOIVODESHIP'
+ 'MASOVIAN_VOIVODESHIP' 'LOWER_SILESIAN_VOIVODESHIP' 'LODZ_VOIVODESHIP'
+ 'COMUNIDAD_AUTONOMA_DEL_PAIS_VASCO' 'STATE_OF_MINNESOTA' 'ARTIGAS'
+ 'MALDONADO' 'TREINTA_Y_TRES' 'CERRO_LARGO' 'COLONIA' 'SAN_JOSE'
+ 'TACUAREMBO' 'RIO_NEGRO' 'LAVALLEJA' 'FLORES' 'FLORIDA' 'CANELONES'
+ 'MONTEVIDEO' 'PAYSANDU' 'RIVERA' 'SALTO' 'CITY_OF_TRONDHEIM'
+ 'CITY_OF_STAVANGER' 'CIT_ OF_WROCLAW' 'CITY_OF_WARSAW' 'CITY_OF_POZNAN'
+ 'AYUNTAMIENTO_DE_BARCELONA' 'CITY_COUNTY_OF_SAN_FRANCISCO'
+ 'CITY_OF_PORTLAND_OREGON' 'KING_COUNTY_WASHINGTON']
+Number of records for each "Government_Name" : 
+<bound method Series.sort_values of Government_Name
+VLAAMSE_OVERHEID                     1
+SALTO                                1
+LAVALLEJA                            1
+FLORES                               1
+FLORIDA                              1
+CANELONES                            1
+MONTEVIDEO                           1
+PAYSANDU                             1
+RIVERA                               1
+CITY_OF_TRONDHEIM                    1
+TACUAREMBO                           1
+CITY_OF_STAVANGER                    1
+CIT_ OF_WROCLAW                      1
+CITY_OF_WARSAW                       1
+CITY_OF_POZNAN                       1
+AYUNTAMIENTO_DE_BARCELONA            1
+CITY_COUNTY_OF_SAN_FRANCISCO         1
+CITY_OF_PORTLAND_OREGON              1
+RIO_NEGRO                            1
+SAN_JOSE                             1
+WALLOON_REGION                       1
+MASOVIAN_VOIVODESHIP                 1
+LESSER_POLAND_VOIVODESHIP            1
+PODKARPACKIE_VOIVODESHIP             1
+GREATER_POLAND_VOIVODESHIP           1
+SILESIAN_VOIVODESHIP                 1
+SWIETOKRZYSKIE_VOIVODESHIP           1
+POMERANIAN_VOIVODESHIP               1
+WEST_POMERANIAN_VOIVODESHIP          1
+LOWER_SILESIAN_VOIVODESHIP           1
+COLONIA                              1
+LODZ_VOIVODESHIP                     1
+COMUNIDAD_AUTONOMA_DEL_PAIS_VASCO    1
+STATE_OF_MINNESOTA                   1
+ARTIGAS                              1
+MALDONADO                            1
+TREINTA_Y_TRES                       1
+CERRO_LARGO                          1
+KING_COUNTY_WASHINGTON               1
+Name: count, dtype: int64> 
+
+Field: "Severity of price levels" 
+Count of Unique Values: 3
+[nan 'ABNORMAL' 'MODERATE' 'TOTAL']
+Number of records for each "Severity of price levels" : 
+<bound method Series.sort_values of Severity of price levels
+ABNORMAL    231
+MODERATE    231
+TOTAL       231
+Name: count, dtype: int64> 
+
+Field: "Level_of_government" 
+Count of Unique Values: 4
+[nan '_T' 'NAT' 'LOCAL' 'REG']
+Number of records for each "Level_of_government" : 
+<bound method Series.sort_values of Level_of_government
+_T       317
+NAT      107
+LOCAL     63
+REG       41
+Name: count, dtype: int64> 
+
+Field: "Type of renewable technology" 
+Count of Unique Values: 8
+[nan 'GEOTHERMAL' 'WIND' 'ALL' 'MARINE' 'BIOENERGY' 'HYDROPOWER' 'SOLAR'
+ 'MULTIPLE']
+Number of records for each "Type of renewable technology" : 
+<bound method Series.sort_values of Type of renewable technology
+ALL           12804
+SOLAR         12628
+HYDROPOWER    10384
+WIND           9856
+BIOENERGY      9328
+GEOTHERMAL     5764
+MARINE         4972
+MULTIPLE       4004
+Name: count, dtype: int64> 
+
+Field: "Population Group" 
+Count of Unique Values: 4
+[nan 'TOTAL' 'POP_A' 'POP_B' 'POP_C']
+Number of records for each "Population Group" : 
+<bound method Series.sort_values of Population Group
+TOTAL    2047
+POP_A      85
+POP_B      51
+POP_C       7
+Name: count, dtype: int64> 
+
+Field: "Custom Breakdown" 
+Count of Unique Values: 0
+[nan]
+Number of records for each "Custom Breakdown" : 
+<bound method Series.sort_values of Series([], Name: count, dtype: int64)> 
+
+Field: "Service Attribute" 
+Count of Unique Values: 6
+[nan 'AVERAGE' 'ACCESS' 'QUALITY' 'EQUALITY' 'ATTITUDE' 'AFFORD']
+Number of records for each "Service Attribute" : 
+<bound method Series.sort_values of Service Attribute
+QUALITY     185
+ATTITUDE    185
+ACCESS      175
+AVERAGE     169
+AFFORD      157
+EQUALITY    143
+Name: count, dtype: int64> 
+
+Field: "Land cover" 
+Count of Unique Values: 11
+[nan 'TREE_COVERED' 'TERRESTRIAL_BARREN' 'SHRUB_COVERED' 'SPARSE_NAT_VEG'
+ 'GRASSLAND' 'HERB_AQUA_FLOOD' 'INLAND_WATER' 'MGCI' 'ARTIFICIAL'
+ 'CROPLAND' 'GLACIERS']
+Number of records for each "Land cover" : 
+<bound method Series.sort_values of Land cover
+TREE_COVERED          7830
+TERRESTRIAL_BARREN    7830
+SHRUB_COVERED         7830
+SPARSE_NAT_VEG        7830
+GRASSLAND             7830
+HERB_AQUA_FLOOD       7830
+INLAND_WATER          7830
+MGCI                  7830
+ARTIFICIAL            7830
+CROPLAND              7830
+GLACIERS              7830
+Name: count, dtype: int64> 
+
+Field: "Bioclimatic belt" 
+Count of Unique Values: 5
+[nan 'REMAIN_MOUNT' 'MONTANE' 'TOTAL' 'ALPINE' 'NIVAL']
+Number of records for each "Bioclimatic belt" : 
+<bound method Series.sort_values of Bioclimatic belt
+TOTAL           28084
+REMAIN_MOUNT    23919
+MONTANE         19635
+ALPINE          12614
+NIVAL            8925
+Name: count, dtype: int64> 
+
+Field: "Illicit Financial Flows" 
+Count of Unique Values: 3
+[nan 'ILM_DRG' 'ILM_SOM' 'ETF_TIP']
+Number of records for each "Illicit Financial Flows" : 
+<bound method Series.sort_values of Illicit Financial Flows
+ILM_DRG    35
+ILM_SOM     9
+ETF_TIP     1
+Name: count, dtype: int64> 
+
+Field: "Nutrient Loading" 
+Count of Unique Values: 1
+[nan 'N_LOAD']
+Number of records for each "Nutrient Loading" : 
+<bound method Series.sort_values of Nutrient Loading
+N_LOAD    1056
+Name: count, dtype: int64> 
+
+Field: "Type of OFDI scheme" 
+Count of Unique Values: 5
+[nan 'ALL' 'DIRECTCPART' 'INVGUA' 'INVFACSERV' 'FISFINSUP']
+Number of records for each "Type of OFDI scheme" : 
+<bound method Series.sort_values of Type of OFDI scheme
+ALL            2
+DIRECTCPART    2
+INVGUA         2
+INVFACSERV     2
+FISFINSUP      2
+Name: count, dtype: int64> 
+
