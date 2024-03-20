@@ -1,0 +1,18 @@
+import pycountry
+
+def isCountry(code):
+    for co in list(pycountry.countries):
+        if str(co.numeric) in str(code):
+            return True
+    return False
+
+def isCountryCode(row):
+    if isCountry(row['GeoAreaCode']):
+        val = "isCountry"
+    else:
+        val = "isNotCountry"
+    return val
+
+dataNew = data   #Replace with your dataset name
+dataNew['isValidCountry'] = dataNew.apply(isCountryCode, axis=1)
+data1 = data.query('isValidCountry == "isCountry" and GeoAreaCode < 900')
