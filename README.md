@@ -46,3 +46,4 @@ EXTRA FILES FOR DATA EXPLORATION:
 1. UNSDGCleanGeoArea.ipynb - Notebook to produce a list of countries with corresponding ISO geoarea codes.
 2. UNSDGDataStructure - A useful notebook to be used to verify the contents of the raw data file are uncorrupted.
 3. DAEN_690_Project_Revised.ipynb - Notebook containing the code for summarizing series descriptions.
+4. ExploratoryDataAnalysis.ipynb - Notebook containing code for Initial Data Exploration
